@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5503338386820599048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5503338386820599050}
+  - component: {fileID: 5503338386820599051}
+  m_Layer: 0
+  m_Name: Pooly
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5503338386820599050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5503338386820599048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.2653115, y: 0.8872654, z: -19.00341}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5503338386820599051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5503338386820599048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da07975c345fe8439a883f6dd280acf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  autoAddMissingItems: 1
+  items:
+  - category: HUD
+    prefab: {fileID: 1558291755182531861, guid: 2827c6d7161f8124ba233c9abd35a213,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 9088362088338434263, guid: 7d8ea643922e1b446b3e41d74b68a03e,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 9088362088338434263, guid: e921f17bcb79f13478d4df2488701bcf,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 1137630519711824130, guid: cf022dc1ffc0d4748a61bb00bc749246,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 6469729294599944328, guid: f58dcff9ecb55654aac4ed19f03622b3,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 6574041731175379225, guid: 715d14bf65f9d4740b497775c2c5498e,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 3999291537607290385, guid: c5c5525a9f39a2d468e8939fbd511e57,
+      type: 3}
+    preloadCloneCount: 20
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 1
+    clonesOnFirstFrame: 0
+    clonesPerFrame: 3
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 4904530742184002672, guid: a4ed45a7e9aea5f41addca1556b9a83a,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 6574041731175379225, guid: 7f220883b8e15463da8b5028d73f379d,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 6921658503262688323, guid: b41481abf242e8f40b1f14cb571c5935,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 3042346554761614901, guid: 6216e22436f437c42b584fd401a70d25,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 5652192852539625992, guid: e0fd81a0057707b4ea054998f2e0d716,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 5096440591105708313, guid: 1eddb7224b2a6594da69eaa6ac7c62cd,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 9088362088338434263, guid: 5d8e8180cdc94b84e9108deea4357309,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 7550303027593723801, guid: 617e16dfb54145143a622812a122d800,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 7882113778758782027, guid: 7b0d7a66b3b4402428d4095e38bbbbaf,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 4474249304267005765, guid: a13bbec0e82c8874482f397658b73e85,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 5685357545692474162, guid: ebfaf2ab97048834bb6f6f03cfb8e66d,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 4530328414569205307, guid: 8712b672b039e704181031ab0e219659,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 1
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 10
+    delayCreatingClonesForFrames: 1
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 4530328414569205307, guid: f21daa147a0853a49a444ad5e148d5c7,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: HUD
+    prefab: {fileID: 595596258622944192, guid: 66c165e38f3344b4186b7cd716b04304, type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0
+  - category: GamePlay
+    prefab: {fileID: 1790314598945693072, guid: 24d1501725af44f39711f3dd9334d6d0,
+      type: 3}
+    preloadCloneCount: 1
+    limitCloneCount: 0
+    cloneCountLimit: 10
+    limitCloneCreationPerFrame: 0
+    clonesOnFirstFrame: 10
+    clonesPerFrame: 20
+    delayCreatingClonesForFrames: 0
+    allowInstantiateMore: 1
+    allowRecycleClones: 0
+    debug: 0

@@ -1,0 +1,308 @@
+syntax = "proto3";
+option csharp_namespace = "com.datld.data";
+
+message UserData {
+  MetaData metaData = 1;
+  UserInventory inventory = 2;
+  GameData gameData = 3;
+  ShopData shopData = 4;
+  DayTrackingValue dayTrackingData = 5;
+  LocationPackSave locationPackSave = 6;
+  SettingData settingData = 7;
+  StarData starData = 8;
+  UserData lastData = 9;
+  TutorialData tutorialData = 10;
+  ManualHeroData manualHeroData = 11;
+  ReminderData reminderData = 12;
+  bool RemoveAds = 13;
+  MissionManagerData missionManagerData = 14;
+  AdsTracker adsTracker = 15;
+}
+
+message TutorialData{
+    int32 lastTutorial = 1;
+    int32 lastTutorialStep = 2;
+}
+
+message MetaData{
+  string UserID = 1;
+  string UserName = 2;
+  int32 UserLevel = 3;
+  int64 lastSave = 4;
+  int64 LastBeginDayTS = 5;
+  int32 VersionData = 6;
+  string FireBaseID = 7;
+  string MacAddress = 8;
+  int64 Revision = 9;
+  bool firstTimeJoinGame = 10;
+  int64 firstTimeJoinTimeStamp = 11;
+  int32 dayLogin = 12;
+  int32 countLogin = 13;
+  bool IsUnlockIdleMode = 14;
+}
+
+message UserInventory{
+  int64 totalGold = 1;
+  int64 totalDiamond = 2;
+  int64 totalPill = 3;
+  int64 totalToken = 4;
+  int64 totalWeaponScroll = 5;
+  int64 totalArmourScroll = 6;
+
+
+  //list items
+  repeated HeroData listHeroData = 7;
+  repeated WeaponData listWeaponData = 8;
+  repeated ChestData listChestData = 9;
+  repeated TalentData listTalentData = 10;
+
+  HeroData manualHero = 11;
+
+  repeated RewardTracker listClaimedOneTimeRewards = 12;
+
+  int64 totalRareKey = 13;
+  int64 totalLegendaryKey = 14;
+  int64 totalAdsRareChest = 15;
+  int64 totalAdsLegendaryChest = 16;
+  int64 totalHeroChestKey = 22;
+  
+  repeated AddOnItem listAddOnItems = 17;
+  int32 talentLevel = 18;
+  int64 lastCollectIdleChestTS = 19;
+  
+  repeated IdleRewardTracker listClaimedIdleRewards = 20;
+  int64 totalPillFromAscend = 21;
+}
+
+message AddOnItem
+{
+  string ItemID = 1;
+  int64 ItemCount = 2;
+  ITEM_STATUS status = 3;
+  int64 ExpiredDuration = 4;
+  bool isUnlimitedItem = 5;
+  int64 readyTS = 6;
+}
+
+message TalentData{
+  string TalentID = 1;
+  int32 TalentLevel = 2;
+  float TalentValue = 3;
+  ITEM_STATUS status = 4;
+}
+
+message RewardTracker
+{
+  string rewardID = 1;
+  int64 earnedTS = 2;
+  int32 countEarned = 3;
+}
+
+message IdleRewardTracker
+{
+	int32 levelReward = 1;
+	repeated RewardTracker listEarnedReward = 2;
+	int32 seasonNum = 3;
+}
+
+message PowerData{
+  float firerate = 1;
+  float percentDmg = 2;
+  float headshotPercent = 3;
+  float critPercent = 4;
+  float range = 5;
+  float hp = 6;
+  float armour = 7;
+  float dmg = 8;
+  float reduceSkillCountDownPercent = 9;
+}
+
+enum ITEM_STATUS{
+  NONE = 0;
+  LOCKED = 1;
+  AVAILABLE = 2;
+  CHOOSING = 3;
+  DISABLE = 4;
+}
+
+enum WEAPON_TYPE
+{
+	NONE_WEAPON = 0;
+	PISTOL = 1;
+	RIFLE = 2;
+	BAZOOKA = 3;
+	MACHINE_GUN = 4;
+	SHOTGUN = 5;
+}
+
+
+message HeroData{
+  enum HERO_TYPE{
+    ASSAULT = 0;
+    SPY = 1;
+    ENGINEER = 2;
+  }
+
+  string uniqueID = 1;
+  HERO_TYPE type = 2;
+  int32 level = 3;
+  int32 rank = 4;
+  PowerData baseHeroPower = 5;
+  string equippedWeapon = 6;
+  string equippedArmour = 7;
+
+  PowerData finalPowerData = 8;
+  ITEM_STATUS itemStatus = 9;
+  PowerData idleUpradedPower = 10;
+  int32 idleLevel = 11;
+  int32 idleRank = 12;
+
+  //Skills & passives
+  repeated string listUltimates = 13;
+  string InitPassiveSkill = 14;
+
+  //Weapon Atributes & Armour Attribute
+  repeated AttributeData listWeaponAttributes = 15;
+  repeated AttributeData listArmourAttributes = 16;
+
+  //Angel only!!
+  int64 currentExp = 17;
+  int64 targetExp = 18;
+
+
+  //shard hero
+  int32 currentShard = 19;
+}
+
+message AttributeData
+{
+  string AttributeID = 1;
+  float AttributeValue = 2;
+}
+
+message WeaponData{
+  string uniqueID = 1;
+  string weaponID = 2;
+  int32 level = 3;
+  int32 rank = 4;
+  PowerData defaultPower = 5;
+  PowerData upgradedPower = 6;
+
+  PowerData finalPowerData = 7;
+  ITEM_STATUS itemStatus = 8;
+  WEAPON_TYPE type = 9;
+}
+
+message ChestData{
+  string uniqueID = 1;
+  string chestType = 2;
+  ITEM_STATUS itemStatus = 3;
+}
+
+message GameData{
+  PlayProgress campaignProgress = 1;
+  PlayProgress idleProgress = 2;
+  repeated string TeamSlots = 3;
+}
+
+message PlayProgress{
+  int32 currentLevel = 1;
+  int32 currentWave = 2;
+  int32 maxLevel = 3;
+  int64 lastLogoutTS = 4;
+
+  // for extra item collect 
+  int64 collectedValue = 5;
+  int64 totalTimePlayed = 6;
+  
+  //for idle mode only!!!
+  int64 resetModeTS = 7;
+  int32 seasonNum = 8;
+  
+  int32 countPlayGame = 9;
+}
+
+
+message ShopData{
+  int64 lastReceiveFreeAdsRareChestTime = 1;
+  int64 lastReceiveFreeAdsLegendaryChestTime = 2;
+  float stackFreeAdsRareChestTime = 3;
+  float stackFreeAdsLegendaryChestTime = 4;
+  repeated int32 stackChestEquipRank = 5;
+  int64 lastDayResetFreeStuff = 6;
+  int64 currentIndexFreeStuff = 7;
+  bool hasPurchaseIAP = 8;
+  repeated string boughtPromotionPack = 9;
+  bool hasBattlePass = 10;
+  bool hasPurchaseDiamond = 11;
+  int64 lastBuyFreeDiamondPackTime = 12;
+  int64 lastBuyFreeGoldPackTime = 13;
+  int64 lastBuyFreeWPCoinPackTime = 14;
+  repeated string lastFreeStuffItems = 15;
+}
+
+message DayTrackingValue{
+  int32 TodayReviveAds = 1;
+  int32 TodayReviveDiamond = 2;
+  int32 TodayEarnAddonAirDrop = 3;
+  int32 TodayDoubleCompleteLevelReward = 4;
+  bool IsPassedFirstTimeShowInterstitial = 5;
+  bool IsDoneRating = 6;
+  int32 LastCountShowRating = 7;
+}
+
+message LocationPackSave{
+  repeated string boughPack = 1;
+  repeated string showedLocation = 2;
+  int32 lastShowLevel = 3;
+}
+
+message SettingData{
+  bool isBgmOn = 1;
+  bool isSfxOn = 2;
+  string language = 3;
+  bool isRareChestNotificationOn = 4;
+  bool isLegendaryChestNotificationOn = 5;
+  bool isFreeStuffNotificationOn = 6;
+}
+
+message StarData{
+  repeated int32 levelStars = 1;
+  repeated int32 claimedDefault = 2;
+  repeated int32 claimedBattlePass = 3;
+  int32 lastTotalStar = 4;
+  int32 lastTotalStarInHUDHome = 5;
+}
+
+message ManualHeroData{
+}
+
+message MissionData{
+  string id = 1;
+  int32 currentStep = 2;
+  bool isComplete = 3;
+  bool isClaimed = 4;
+}
+
+message MissionDurationData{
+  repeated MissionData missionDatas = 1;
+  int32 duration = 2;
+  int64 startDate = 3;
+  bool isClaimed = 4;
+  bool isComplete = 5;
+}
+
+message MissionManagerData{
+  MissionDurationData daily = 1;
+  MissionDurationData weekly = 2;
+  int32 lastCheckLoginMission = 3;
+}
+
+message ReminderData{
+  repeated string newHeroOnHudEquip = 1;
+}
+
+message AdsTracker{
+	int64 lastTimeWatchedRewardAds = 1;
+}
+

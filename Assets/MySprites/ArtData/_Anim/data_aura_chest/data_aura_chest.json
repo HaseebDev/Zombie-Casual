@@ -1,0 +1,99 @@
+{
+"skeleton": { "hash": "/XPPkSlmyx4k80oYrm52Zrn5dDE", "spine": "3.7.94", "width": 128, "height": 128, "images": "./pic/", "audio": "D:/B_zombie/_zombie_fake/_anim_chest" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "aura", "parent": "root" },
+	{ "name": "aura2", "parent": "root" }
+],
+"slots": [
+	{ "name": "aurasss", "bone": "aura", "color": "ffffff00", "attachment": "aurasss", "blend": "additive" },
+	{ "name": "aurasss2", "bone": "aura2", "color": "ffffff00", "attachment": "aurasss", "blend": "additive" },
+	{ "name": "cut", "bone": "root" }
+],
+"skins": {
+	"default": {
+		"cut": {
+			"cut": {
+				"type": "clipping",
+				"end": "cut",
+				"vertexCount": 43,
+				"vertices": [ -112.51, 52.68, -66.01, 52.38, -43.88, 40.64, -25.42, 37.82, -7.19, 38.64, 13.64, 44.74, 28.02, 55.73, 33.14, 59.65, 35.27, 63.52, 38.66, 69.7, 42.54, 76.75, 44.9, 81.98, 47.14, 86.94, 51.46, 96.51, 51.83, 105.97, 52.21, 115.8, 52.42, 121.09, 52.59, 125.67, 53.47, 128.61, 54.68, 132.65, 56.26, 137.95, 57.53, 142.24, 58.8, 146.48, 59.92, 150.25, 60.99, 153.84, 62.03, 157.3, 69.33, 162.52, 74.86, 166.48, 83.94, 166.58, 88.05, 166.65, 103.32, 166.86, 114.73, 167.01, 118.22, 162.35, 121.45, 158.04, 123.99, 154.64, 131.33, 129.87, 130.82, 45.44, 131.16, 8.71, 692.9, 4.25, 597.14, 754.04, -496.68, 749.29, -551.65, -3, -112, 1.97 ],
+				"color": "ce3a3aff"
+			}
+		}
+	},
+	"aura_chest": {
+		"aurasss": {
+			"aurasss": { "name": "aura", "y": 0.5, "width": 128, "height": 128 }
+		},
+		"aurasss2": {
+			"aurasss": { "name": "aura", "y": 0.5, "width": 128, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"aura_openchest": {
+		"slots": {
+			"aurasss": {
+				"color": [
+					{ "time": 0, "color": "fffd6500", "curve": "stepped" },
+					{ "time": 0.2333, "color": "fffd6500" },
+					{ "time": 0.2667, "color": "ffffff86" },
+					{ "time": 0.5667, "color": "ffffffbe" },
+					{ "time": 0.7667, "color": "ffffff86" }
+				]
+			},
+			"aurasss2": {
+				"color": [
+					{ "time": 0, "color": "fffd6500", "curve": "stepped" },
+					{ "time": 0.2333, "color": "fffd6500" },
+					{ "time": 0.2667, "color": "ffffff86" },
+					{ "time": 0.5667, "color": "ffffffbe" },
+					{ "time": 0.7667, "color": "ffffff86" }
+				]
+			}
+		},
+		"bones": {
+			"aura": {
+				"rotate": [
+					{ "time": 0.2667, "angle": 0 },
+					{ "time": 0.5, "angle": 45 },
+					{ "time": 0.7667, "angle": 90 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.48, "y": 108.58 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3.8, "y": 3.8 }
+				]
+			},
+			"aura2": {
+				"rotate": [
+					{ "time": 0.2667, "angle": 0 },
+					{ "time": 0.5, "angle": 45 },
+					{ "time": 0.7667, "angle": 90 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.48, "y": 108.58 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.8, "y": 2.8 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"cut": {
+					"cut": [
+						{
+							"time": 0,
+							"offset": 24,
+							"vertices": [ 0.36, 2.39999, -3.132, -5.51999, -3.84, -5.27999, -3.6, -3.6, -3, -0.35999, -2.64001, 0.24003, -2.75999, 1.67999, -3.12, 2.16, -3.6, 1.67999, -4.12798, 0.94598, -3.924, 0.96201, -2.82999, 1.83, -1.098, 3.118, 0.72798, 3.09798, -0.168, 2.22798, -0.44602, 0.10199, 1.10001, 0.29001, 21.02, 0.40999, 11.6, -0.83002, 4.72198, -3.86597, 5.49998, -3.84999, 5.05997, -4.06999, 4.55998, -4.56, 1.08351, 1.83202 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

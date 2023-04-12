@@ -1,0 +1,407 @@
+{
+"skeleton": { "hash": "9YppEyhmBONYt2xRPRv7pqWZArc", "spine": "3.7.94", "width": 350, "height": 333.09, "images": "./pic/", "audio": "D:/B_zombie/_zombie_fake/_anim_chest" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "gold_than", "parent": "root", "y": 9.74 },
+	{ "name": "gold_nap", "parent": "gold_than", "x": 1.22, "y": 97.69 },
+	{ "name": "eye", "parent": "gold_nap", "x": 34.47, "y": 76.58 },
+	{ "name": "gold_tron", "parent": "gold_than", "x": -22.59, "y": 105.21 },
+	{ "name": "eye2", "parent": "gold_nap", "x": -80.18, "y": 76.58 },
+	{ "name": "eye3", "parent": "gold_nap", "x": 34.47, "y": 76.58 },
+	{ "name": "eye4", "parent": "gold_nap", "x": -81.03, "y": 76.58 },
+	{ "name": "glow_circle", "parent": "root" },
+	{ "name": "glow_back2", "parent": "root" },
+	{ "name": "gold_than2", "parent": "root", "y": 9.74 }
+],
+"slots": [
+	{ "name": "than", "bone": "gold_than", "attachment": "than" },
+	{ "name": "than2", "bone": "gold_than2", "attachment": "than", "blend": "additive" },
+	{ "name": "nap", "bone": "gold_nap", "attachment": "nap" },
+	{ "name": "tron", "bone": "gold_tron", "attachment": "tron" },
+	{ "name": "eye", "bone": "eye", "attachment": "eye" },
+	{ "name": "eye2", "bone": "eye2", "attachment": "eye" },
+	{ "name": "eye_glow", "bone": "eye3", "color": "ffffff00", "attachment": "eye_glow", "blend": "additive" },
+	{ "name": "eye_glow2", "bone": "eye4", "color": "ffffff00", "attachment": "eye_glow", "blend": "additive" },
+	{ "name": "cut", "bone": "root", "attachment": "cut" },
+	{ "name": "glow_circle", "bone": "glow_circle", "color": "ffffff00", "attachment": "glow_circle", "blend": "additive" },
+	{ "name": "glow_back2", "bone": "glow_back2", "color": "ffffff00", "attachment": "glow_back2", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"cut": {
+			"cut": {
+				"type": "clipping",
+				"end": "cut",
+				"vertexCount": 22,
+				"vertices": [ -112.51, 52.68, -66.01, 52.38, -43.88, 40.64, -25.42, 37.82, -7.19, 38.64, 13.64, 44.74, 33.14, 59.65, 42.54, 76.75, 51.46, 96.51, 52.59, 125.67, 62.03, 157.3, 74.86, 166.48, 114.73, 167.01, 123.99, 154.64, 131.33, 129.87, 130.82, 45.44, 131.16, 8.71, 692.9, 4.25, 597.14, 754.04, -496.68, 749.29, -551.65, -3, -112, 1.97 ],
+				"color": "ce3a3aff"
+			}
+		},
+		"eye": {
+			"eye": { "x": 0.09, "y": -8.78, "width": 23, "height": 36 }
+		},
+		"eye2": {
+			"eye": { "x": 0.09, "y": -8.78, "width": 23, "height": 36 }
+		},
+		"eye_glow": {
+			"eye_glow": { "x": 0.09, "y": -8.78, "width": 47, "height": 60 }
+		},
+		"eye_glow2": {
+			"eye_glow": { "x": 0.09, "y": -8.78, "width": 47, "height": 60 }
+		},
+		"glow_back2": {
+			"glow_back2": { "path": "glow_back", "width": 200, "height": 200 }
+		},
+		"glow_circle": {
+			"glow_circle": { "width": 140, "height": 138 }
+		}
+	},
+	"blue_chest": {
+		"nap": {
+			"nap": { "name": "blue_nap", "x": 10.08, "y": 48.84, "width": 350, "height": 306 }
+		},
+		"than": {
+			"than": { "name": "blue_than", "x": 9.3, "y": 96.44, "width": 318, "height": 260 }
+		},
+		"than2": {
+			"than": { "name": "blue_than", "x": 9.3, "y": 96.44, "width": 318, "height": 260 }
+		},
+		"tron": {
+			"tron": { "name": "blue_tron", "x": -10.01, "y": -1.27, "width": 157, "height": 144 }
+		}
+	},
+	"gold_chest": {
+		"nap": {
+			"nap": { "name": "gold_nap", "x": 11.8, "y": 59.46, "width": 292, "height": 153 }
+		},
+		"than": {
+			"than": { "name": "gold_than", "x": 9.3, "y": 96.44, "width": 265, "height": 217 }
+		},
+		"than2": {
+			"than": { "name": "gold_than", "x": 9.3, "y": 96.44, "width": 265, "height": 217 }
+		},
+		"tron": {
+			"tron": { "name": "gold_tron", "x": -10.01, "y": -1.26, "width": 131, "height": 120 }
+		}
+	},
+	"red_chest": {
+		"nap": {
+			"nap": { "name": "red_nap", "x": 10.08, "y": 48.84, "width": 350, "height": 306 }
+		},
+		"than": {
+			"than": { "name": "red_than", "x": 9.3, "y": 96.44, "width": 318, "height": 260 }
+		},
+		"than2": {
+			"than": { "name": "red_than", "x": 9.3, "y": 96.44, "width": 318, "height": 260 }
+		},
+		"tron": {
+			"tron": { "name": "red_tron", "x": -10.01, "y": -1.27, "width": 157, "height": 144 }
+		}
+	}
+},
+"animations": {
+	"an_appear": {
+		"slots": {
+			"eye": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"eye2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"nap": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"than": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"than2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"tron": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"gold_than": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 1100.81 },
+					{
+						"time": 0.1667,
+						"x": 0,
+						"y": 618.35,
+						"curve": [ 0.25, 0, 1, 0.11 ]
+					},
+					{
+						"time": 0.2,
+						"x": 0,
+						"y": -6.63,
+						"curve": [ 0.32, 0, 0.996, 1 ]
+					},
+					{
+						"time": 0.3,
+						"x": 0,
+						"y": 137.51,
+						"curve": [ 0, 0.22, 0.637, 1 ]
+					},
+					{
+						"time": 0.3667,
+						"x": 0,
+						"y": -9.74,
+						"curve": [ 0.25, 0, 0.783, 1 ]
+					},
+					{ "time": 0.5333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0.1667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1.448,
+						"y": 0.571,
+						"curve": [ 0.32, 0, 0.996, 1 ]
+					},
+					{
+						"time": 0.3,
+						"x": 1.027,
+						"y": 1.519,
+						"curve": [ 0, 0.22, 0.637, 1 ]
+					},
+					{
+						"time": 0.3667,
+						"x": 1.423,
+						"y": 0.752,
+						"curve": [ 0.25, 0, 0.783, 1 ]
+					},
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"an_freeze": {
+		"slots": {
+			"than2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"glow_back2": {
+				"translate": [
+					{ "time": 0, "x": -19.36, "y": 108.2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.882, "y": 0.861 }
+				]
+			},
+			"glow_circle": {
+				"translate": [
+					{ "time": 0, "x": -19.36, "y": 108.2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.882, "y": 0.861 }
+				]
+			}
+		}
+	},
+	"an_openchest": {
+		"slots": {
+			"eye": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff83" },
+					{ "time": 0.2667, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff83" },
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff83" }
+				]
+			},
+			"eye2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff83" },
+					{ "time": 0.2667, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff83" },
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff83" }
+				]
+			},
+			"eye_glow": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "fff87dff" },
+					{ "time": 0.2667, "color": "f2ff8e00" },
+					{ "time": 0.4, "color": "fffe9bff" },
+					{ "time": 0.5333, "color": "fcff8000" },
+					{ "time": 0.6667, "color": "e9ff5fff" }
+				]
+			},
+			"eye_glow2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "fff87dff" },
+					{ "time": 0.2667, "color": "f2ff8e00" },
+					{ "time": 0.4, "color": "fffe9bff" },
+					{ "time": 0.5333, "color": "fcff8000" },
+					{ "time": 0.6667, "color": "e9ff5fff" }
+				]
+			},
+			"glow_back2": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffff00" },
+					{ "time": 0.2667, "color": "55ffe6ff" },
+					{ "time": 0.4667, "color": "dcff55ff" }
+				]
+			},
+			"glow_circle": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffff00" },
+					{ "time": 0.2667, "color": "fffa8f4f" }
+				]
+			},
+			"than2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7667, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"gold_than": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.02, 0.081, 1 ]
+					},
+					{ "time": 0.1667, "x": 0, "y": -4.12 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0, 0.02, 0.081, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0.924,
+						"y": 0.69,
+						"curve": [ 0.63, 0, 1, 0.3 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1.035,
+						"y": 0.532,
+						"curve": [ 0.532, 0, 1, 0.3 ]
+					},
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			},
+			"gold_tron": {
+				"translate": [
+					{
+						"time": 0.2,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.201, 0, 1, 0.24 ]
+					},
+					{ "time": 0.2667, "x": -605.68, "y": 0 }
+				]
+			},
+			"gold_nap": {
+				"translate": [
+					{
+						"time": 0.2,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.51, 0, 1, 0.31 ]
+					},
+					{ "time": 0.2667, "x": 0, "y": 96.56 }
+				]
+			},
+			"glow_circle": {
+				"translate": [
+					{ "time": 0, "x": -19.36, "y": 108.2 },
+					{ "time": 0.2667, "x": -15.46, "y": 106.25 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.882, "y": 0.861 },
+					{ "time": 0.2333, "x": 1.266, "y": 0.745 },
+					{ "time": 0.2667, "x": 0.77, "y": 0.771 },
+					{ "time": 0.4667, "x": 1.313, "y": 1.314 }
+				]
+			},
+			"glow_back2": {
+				"translate": [
+					{ "time": 0, "x": -19.36, "y": 108.2 },
+					{ "time": 0.5667, "x": -19.36, "y": 105.51 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.882, "y": 0.861 },
+					{ "time": 0.2333, "x": 1.266, "y": 0.745 },
+					{ "time": 0.2667, "x": 2.646, "y": 2.648 },
+					{ "time": 0.4667, "x": 2.152, "y": 2.153 }
+				]
+			},
+			"gold_than2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.02, 0.081, 1 ]
+					},
+					{ "time": 0.1667, "x": 0, "y": -4.12 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0, 0.02, 0.081, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0.924,
+						"y": 0.69,
+						"curve": [ 0.63, 0, 1, 0.3 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1.035,
+						"y": 0.532,
+						"curve": [ 0.532, 0, 1, 0.3 ]
+					},
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

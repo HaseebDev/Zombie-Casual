@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7adeea612956edf48ac80e123e1b3fbd, type: 3}
+  m_Name: MapDecorSO
+  m_EditorClassIdentifier: 
+  mapDecors:
+  - mapName: 2
+    DecorPrefab:
+      m_AssetGUID: 0d55f85ca9dfe034db88273c66fdd919
+      m_SubObjectName: 
+      m_SubObjectType: 
+    _mapGroundColor: {r: 1, g: 0.9273207, b: 0.740566, a: 1}
+    _sourceColor: {r: 1, g: 0.872787, b: 0.6179246, a: 1}
+    _sourceIntensity: 1.32
+    _equatorColor: {r: 1, g: 0.9373838, b: 0.7311321, a: 1}
+    _equatorIntensity: 0.65
+    _groundColor: {r: 0, g: 0, b: 0, a: 1}
+    _groundIntensity: -10
+    IntensityMultiplie: 0.5
+    _directLightColor: {r: 1, g: 0.9837234, b: 0.7971698, a: 1}
+    _directLightIntensity: 0.4
+    Bounces: 1
+  - mapName: 1
+    DecorPrefab:
+      m_AssetGUID: d46443b98a1a02545835d53ac2309140
+      m_SubObjectName: 
+      m_SubObjectType: 
+    _mapGroundColor: {r: 0.3234247, g: 0.46499464, b: 0.8679245, a: 1}
+    _sourceColor: {r: 1, g: 1, b: 1, a: 1}
+    _sourceIntensity: 0.5
+    _equatorColor: {r: 1, g: 1, b: 1, a: 1}
+    _equatorIntensity: -1.59
+    _groundColor: {r: 0, g: 0, b: 0, a: 1}
+    _groundIntensity: -10
+    IntensityMultiplie: 0.5
+    _directLightColor: {r: 1, g: 1, b: 1, a: 1}
+    _directLightIntensity: 1.3
+    Bounces: 1
+  - mapName: 3
+    DecorPrefab:
+      m_AssetGUID: d46443b98a1a02545835d53ac2309140
+      m_SubObjectName: 
+      m_SubObjectType: 
+    _mapGroundColor: {r: 0.18729973, g: 0.18525274, b: 0.21698111, a: 1}
+    _sourceColor: {r: 0.2216981, g: 0.44007, b: 1, a: 1}
+    _sourceIntensity: 1
+    _equatorColor: {r: 0.36436453, g: 0.4498173, b: 0.8679245, a: 1}
+    _equatorIntensity: 1
+    _groundColor: {r: 0.740566, g: 0.94720453, b: 1, a: 1}
+    _groundIntensity: 2.5
+    IntensityMultiplie: 0.5
+    _directLightColor: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
+    _directLightIntensity: 0.5
+    Bounces: 1
+  - mapName: 4
+    DecorPrefab:
+      m_AssetGUID: 0d55f85ca9dfe034db88273c66fdd919
+      m_SubObjectName: 
+      m_SubObjectType: 
+    _mapGroundColor: {r: 0.2716714, g: 0.4447089, b: 0.5188679, a: 1}
+    _sourceColor: {r: 0.6273585, g: 0.870182, b: 1, a: 1}
+    _sourceIntensity: 1
+    _equatorColor: {r: 0.2285066, g: 0.3430959, b: 0.6132076, a: 1}
+    _equatorIntensity: 0.65
+    _groundColor: {r: 0, g: 0.6233468, b: 1, a: 1}
+    _groundIntensity: 1
+    IntensityMultiplie: 0.5
+    _directLightColor: {r: 0.7783019, g: 0.9346574, b: 1, a: 1}
+    _directLightIntensity: 0.35
+    Bounces: 1
+  - mapName: 5
+    DecorPrefab:
+      m_AssetGUID: 995da4d97a1d87d4f93a8f08e6e019d3
+      m_SubObjectName: 
+      m_SubObjectType: 
+    _mapGroundColor: {r: 1, g: 1, b: 1, a: 1}
+    _sourceColor: {r: 1, g: 1, b: 1, a: 1}
+    _sourceIntensity: 1
+    _equatorColor: {r: 1, g: 1, b: 1, a: 1}
+    _equatorIntensity: 0.65
+    _groundColor: {r: 0.0141509175, g: 0.9558337, b: 1, a: 1}
+    _groundIntensity: 0
+    IntensityMultiplie: 0.5
+    _directLightColor: {r: 1, g: 1, b: 1, a: 1}
+    _directLightIntensity: 0.35
+    Bounces: 1
+  - mapName: 6
+    DecorPrefab:
+      m_AssetGUID: 995da4d97a1d87d4f93a8f08e6e019d3
+      m_SubObjectName: 
+      m_SubObjectType: 
+    _mapGroundColor: {r: 0.5226504, g: 0.8207547, b: 0.8207547, a: 1}
+    _sourceColor: {r: 1, g: 1, b: 1, a: 1}
+    _sourceIntensity: 1
+    _equatorColor: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+    _equatorIntensity: 1
+    _groundColor: {r: 0.042452812, g: 0.6872522, b: 1, a: 1}
+    _groundIntensity: 3.06
+    IntensityMultiplie: 0.5
+    _directLightColor: {r: 1, g: 1, b: 1, a: 1}
+    _directLightIntensity: 0
+    Bounces: 1
+  - mapName: 7
+    DecorPrefab:
+      m_AssetGUID: 72247aa81dbdcd54fa20df6d30dd234f
+      m_SubObjectName: 
+      m_SubObjectType: 
+    _mapGroundColor: {r: 0.764151, g: 0.32079923, b: 0.32079923, a: 1}
+    _sourceColor: {r: 1, g: 1, b: 1, a: 1}
+    _sourceIntensity: 0.1
+    _equatorColor: {r: 1, g: 1, b: 1, a: 1}
+    _equatorIntensity: 0.65
+    _groundColor: {r: 0.5188679, g: 0.065017715, b: 0, a: 1}
+    _groundIntensity: 0
+    IntensityMultiplie: 0.5
+    _directLightColor: {r: 1, g: 1, b: 1, a: 1}
+    _directLightIntensity: 0.35
+    Bounces: 1
+  - mapName: 8
+    DecorPrefab:
+      m_AssetGUID: 72247aa81dbdcd54fa20df6d30dd234f
+      m_SubObjectName: 
+      m_SubObjectType: 
+    _mapGroundColor: {r: 1, g: 1, b: 1, a: 1}
+    _sourceColor: {r: 1, g: 1, b: 1, a: 1}
+    _sourceIntensity: 1
+    _equatorColor: {r: 1, g: 1, b: 1, a: 1}
+    _equatorIntensity: 1
+    _groundColor: {r: 1, g: 1, b: 1, a: 1}
+    _groundIntensity: 1
+    IntensityMultiplie: 0.5
+    _directLightColor: {r: 1, g: 1, b: 1, a: 1}
+    _directLightIntensity: 0.5
+    Bounces: 1
+  - mapName: 9
+    DecorPrefab:
+      m_AssetGUID: b772249b57a227142b77878a11325ea9
+      m_SubObjectName: 
+      m_SubObjectType: 
+    _mapGroundColor: {r: 0.6583007, g: 0.754717, b: 0.52331793, a: 1}
+    _sourceColor: {r: 0.42552492, g: 0.509434, b: 0.41571736, a: 1}
+    _sourceIntensity: 1
+    _equatorColor: {r: 1, g: 1, b: 1, a: 1}
+    _equatorIntensity: 0.8
+    _groundColor: {r: 0, g: 1, b: 0.111168385, a: 1}
+    _groundIntensity: -10
+    IntensityMultiplie: 0.5
+    _directLightColor: {r: 1, g: 1, b: 1, a: 1}
+    _directLightIntensity: 0.35
+    Bounces: 1
+  - mapName: 10
+    DecorPrefab:
+      m_AssetGUID: b772249b57a227142b77878a11325ea9
+      m_SubObjectName: 
+      m_SubObjectType: 
+    _mapGroundColor: {r: 0.2805415, g: 0.7169812, b: 0.13866144, a: 1}
+    _sourceColor: {r: 0.020433465, g: 0.1792453, b: 0, a: 1}
+    _sourceIntensity: 1
+    _equatorColor: {r: 0.36311856, g: 0.645452, b: 0.9056604, a: 1}
+    _equatorIntensity: 1
+    _groundColor: {r: 0.57842773, g: 1, b: 0.4669811, a: 1}
+    _groundIntensity: 2.5
+    IntensityMultiplie: 0.5
+    _directLightColor: {r: 1, g: 1, b: 1, a: 1}
+    _directLightIntensity: 0
+    Bounces: 1

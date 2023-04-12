@@ -1,0 +1,944 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b921f2359dad341b3656305f13806d, type: 3}
+  m_Name: ResourceDefineManager
+  m_EditorClassIdentifier: Assembly-CSharp::LoadSpriteHelper/SpriteDefineManager
+  rankDefines:
+  - spriteAddress:
+      m_AssetGUID: ee12dd958947eb34ca21b0e1951b1096
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    rank: 1
+    name: COMMON
+    color: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+  - spriteAddress:
+      m_AssetGUID: ca68d31a075985c4daed911fcb5dde93
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    rank: 2
+    name: RARE
+    color: {r: 0.13550194, g: 0.8207547, b: 0.15365116, a: 1}
+  - spriteAddress:
+      m_AssetGUID: a42ff519270b5794bb728ae950c9c204
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    rank: 3
+    name: EPIC
+    color: {r: 0.15477037, g: 0.5952181, b: 0.8867924, a: 1}
+  - spriteAddress:
+      m_AssetGUID: 1ed792e7fda548347b6466b835c3f52b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    rank: 4
+    name: LEGENDARY
+    color: {r: 0.5094092, g: 0.1432894, b: 0.8679245, a: 1}
+  - spriteAddress:
+      m_AssetGUID: 262c7d0138288024d8887781922eb140
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    rank: 5
+    name: IMMORTAL
+    color: {r: 0.6981132, g: 0.20362516, b: 0.1284265, a: 1}
+  - spriteAddress:
+      m_AssetGUID: 821a037850c28ca40b80c87b203566ae
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    rank: 6
+    name: UNIQUE
+    color: {r: 1, g: 0.9919771, b: 0, a: 1}
+  currencySpriteDefines:
+  - spriteAddress:
+      m_AssetGUID: e1aecc0d6571279469f5b5719ac9538b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 0
+  - spriteAddress:
+      m_AssetGUID: e1aecc0d6571279469f5b5719ac9538b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 1
+  - spriteAddress:
+      m_AssetGUID: 3a7e1ca2c2ac3d042b56392428b8ab09
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 2
+  - spriteAddress:
+      m_AssetGUID: 3912381885d6f5740af0f0ad6d9434cb
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 3
+  - spriteAddress:
+      m_AssetGUID: 50db9b3c5b85cfc4498748500d575017
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 4
+  - spriteAddress:
+      m_AssetGUID: 29d53aac1a200234e8f13ae08f426d42
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 5
+  - spriteAddress:
+      m_AssetGUID: 1ce4c8e1b94af7f4ab4eb85d45ff726f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 6
+  equipTypeSpriteDefines:
+  - spriteAddress:
+      m_AssetGUID: f3f05a9e6b5e2ca4fb9dbc245ae0fa53
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 0
+  - spriteAddress:
+      m_AssetGUID: 0af1deb3c5f37dd4a8f4ab972fcb38d5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 1
+  ultimateSpriteDefines:
+  - spriteAddress:
+      m_AssetGUID: 544bfaaf13d14c344be164ce8e134362
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: SKILL_ACTIVE_BOMB
+    bgAddress:
+      m_AssetGUID: 200ecac313067134ea437759aee7df98
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 5d01ab448d496714cb934d27033abfa5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: SKILL_ZONE_BOMB
+    bgAddress:
+      m_AssetGUID: 200ecac313067134ea437759aee7df98
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: c448005dcd50ec6428e2a310a7a69a3f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: SKILL_STUN_BOMB
+    bgAddress:
+      m_AssetGUID: 200ecac313067134ea437759aee7df98
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 75b319191d938a84395dc525b42ada69
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: SKILL_DARK_WING
+    bgAddress:
+      m_AssetGUID: c448005dcd50ec6428e2a310a7a69a3f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 4010f5844b759944483d89199d502adc
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: SKILL_POISON_BOMB
+    bgAddress:
+      m_AssetGUID: c448005dcd50ec6428e2a310a7a69a3f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 2f2e38f3221e9644380f4297431affa9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_INCREASE_DMG
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: ae218153b5e9c3e488ac852efbef111f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_INCREASE_HP
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 3b1f967ea189d9f4da65b66d9ad4c518
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_INCREASE_CRIT
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: d60779048dbbda244825452d4031c271
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_INCREASE_ARMOUR
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 75b319191d938a84395dc525b42ada69
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: SKILL_PIERCE_BULLET
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 75b319191d938a84395dc525b42ada69
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: ADD_ON_RADIO_CALL
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 87a0a4668ed0864418dbc1b9265c2050
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: ADD_ON_FLAME_BOX
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 7ee003d461ab5594a83888fbc56ef46c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: ADD_ON_BUFF_DEADSHOT
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 0fc5dbac6ddee1a4894faf9ba552b639
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: ADD_ON_SPAWN_GATE
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 60fe9531a494d4f4e97c90bb24e357d5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: ADD_ON_MEDIC
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 2461559ab5bf17949b2f154e720c844a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: ADD_ON_AIR_DROP
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 4010f5844b759944483d89199d502adc
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: ADD_ON_AUTO_MANUAL_HERO
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 97b29916a3cf9df4a95cf8939e5e9cb2
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: ADD_ON_SPEED_UP
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 0e0ea6d3c1052244c9c380a08e6a3433
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_HIT_FIRE
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_HIT_POISON
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 4cc687c2473c43745acfc2f9b2026586
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_HIT_STUN
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: e40034a830b819b4a82fba98da2b4e65
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_HIT_FROZEN
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 987049d67cded29409cf32624835bdb0
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_HIT_LIGHTING
+    bgAddress:
+      m_AssetGUID: f4dc1891e4100cf439f50414b79bfcb1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 544bfaaf13d14c344be164ce8e134362
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_HIT_BOMB
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: fae6f9d00d5f16d4d9a34ef5f6daeb8d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_DEAD_SHOT
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 80090574d6f67364e9ada8b7abae4aaf
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_FURY_SHOT
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: ad2d6b431d0f93a4fb73e45bf0e3823e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_MADNESS
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 0b8a29dec00b0d14caa7d2917b87630d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_RICOCHET
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: e79db6382a25b3b439ac119b3fc74443
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_BULLET_TRAIL
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: b04e5f52facde6a4c9b9e62c11b4784d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_PIERCE
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 7613f95c526651243983befff897f831
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_PUSHBACK
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_AOE
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 9c33796768273e04d839bf1b1a91211e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_DIAGONAL
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 544bfaaf13d14c344be164ce8e134362
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: SKILL_ACTIVE_FIRE_BOMB
+    bgAddress:
+      m_AssetGUID: 200ecac313067134ea437759aee7df98
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 4605e01ff078a9c47bc56d14eab7e9df
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: SKILL_FORKED_LIGHTNING
+    bgAddress:
+      m_AssetGUID: f4dc1891e4100cf439f50414b79bfcb1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: d00b1e72b465e8a4faf813d395cb2f9f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: SKILL_SONIC_WAVE
+    bgAddress:
+      m_AssetGUID: c448005dcd50ec6428e2a310a7a69a3f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 43d478442f3adaa418c368674d8f94d4
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_INCREASE_HEADSHOT_PERCENT
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 8cc4b7b1754307941837111342a46dd0
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_INCREASE_PERCENT_DMG
+    bgAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: a42f2d2ba21f6594a87009cede61f4ad
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: SKILL_SUMMON_ROCKET_DRONE
+    bgAddress:
+      m_AssetGUID: c448005dcd50ec6428e2a310a7a69a3f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: 0e0ea6d3c1052244c9c380a08e6a3433
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_HIT_BURNING_AREA
+    bgAddress:
+      m_AssetGUID: 200ecac313067134ea437759aee7df98
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - spriteAddress:
+      m_AssetGUID: e40034a830b819b4a82fba98da2b4e65
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PASSIVE_HIT_NOVA
+    bgAddress:
+      m_AssetGUID: f4dc1891e4100cf439f50414b79bfcb1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  rewardSpriteDefines:
+  - spriteAddress:
+      m_AssetGUID: 9b0a23bb4b7ffa647a11b49b21f49984
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 9
+  - spriteAddress:
+      m_AssetGUID: e4c18497e2aafd547a4886af0bdeb1fd
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 10
+  - spriteAddress:
+      m_AssetGUID: 064697a4168207c4f9a7fa3635f4fa0f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 12
+  - spriteAddress:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 11
+  - spriteAddress:
+      m_AssetGUID: 54bc6406e2d26aa498b8f649ffffef9a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 18
+  shopSpriteDefines:
+  - spriteAddress:
+      m_AssetGUID: 3970564c3ccc6cd4698576eec7a98d9e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: DIAMOND_1
+  - spriteAddress:
+      m_AssetGUID: 686bb8a4c917e78498ad486041d23a0c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: DIAMOND_2
+  - spriteAddress:
+      m_AssetGUID: e87e36361f0e8c0448904425a7a5b86c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: DIAMOND_3
+  - spriteAddress:
+      m_AssetGUID: a4ad2df882de37449a1beb10a45ba599
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: DIAMOND_4
+  - spriteAddress:
+      m_AssetGUID: b06141a54bf387c489384aaa055e7b5d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: DIAMOND_5
+  - spriteAddress:
+      m_AssetGUID: 5ee6b533185723b4cbdfe75decc27df7
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: DIAMOND_6
+  - spriteAddress:
+      m_AssetGUID: 921f2c68fe0555c4d9a78dd3c49914ae
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: GOLD_1
+  - spriteAddress:
+      m_AssetGUID: b3791aacdf6e6be4fa7b0b1548155a36
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: GOLD_2
+  - spriteAddress:
+      m_AssetGUID: 917c23f41a26a064cbf53d785c5b77a7
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: GOLD_3
+  - spriteAddress:
+      m_AssetGUID: 9fa2178d5e6cc41439f579e55e13d943
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: GOLD_4
+  - spriteAddress:
+      m_AssetGUID: ad95f43ef18104e4d8f6cb84b872b739
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: GOLD_5
+  - spriteAddress:
+      m_AssetGUID: 8ffdec2ff0442254ab1b1ed59e767bef
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PROMOTION_1
+  - spriteAddress:
+      m_AssetGUID: 8ffdec2ff0442254ab1b1ed59e767bef
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PROMOTION_2
+  - spriteAddress:
+      m_AssetGUID: 8ffdec2ff0442254ab1b1ed59e767bef
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: PROMOTION_3
+  - spriteAddress:
+      m_AssetGUID: cbf94ca58870e3644a7d12a22b00ffb1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: RARE_CHEST
+  - spriteAddress:
+      m_AssetGUID: 773e570e6aa0db441aa14308dc04c463
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: LEGENDARY_CHEST
+  - spriteAddress:
+      m_AssetGUID: f89e88a9f75192b41a06e4ca27512214
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: WEAPON_COIN_1
+  - spriteAddress:
+      m_AssetGUID: 87e0cf82a3901dd4cb668ff8f29707de
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: WEAPON_COIN_2
+  - spriteAddress:
+      m_AssetGUID: f89d225ebab86db4fa4c42faac9d3616
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: WEAPON_COIN_3
+  - spriteAddress:
+      m_AssetGUID: 9c1b931745a278b40a195b4ec3b86485
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: POTION_1
+  - spriteAddress:
+      m_AssetGUID: fd5042ac614729742b493ec4d3314cd1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: POTION_2
+  - spriteAddress:
+      m_AssetGUID: 80cb9d159d3c4924ba9d004939f46828
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: POTION_3
+  talentSpriteDefines:
+  - spriteAddress:
+      m_AssetGUID: 4388d320b50a86446a557d788c3e8943
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: STRENGTH
+  - spriteAddress:
+      m_AssetGUID: b8ac0da04d1bc464487fdf38ccb9c111
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: POWER
+  - spriteAddress:
+      m_AssetGUID: d484b84cd88157c439cf15ca1a2b8c52
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: RECOVER
+  - spriteAddress:
+      m_AssetGUID: b8fdd75a570bbd846b40dae67f9be12f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: RANGE_BLOCK
+  - spriteAddress:
+      m_AssetGUID: d5bb891885a4a324badac4525c6ec150
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: MELEE_BLOCK
+  - spriteAddress:
+      m_AssetGUID: 240210bf0c014a54ca86e83cf7456dee
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: AGILITY
+  - spriteAddress:
+      m_AssetGUID: d0160285f5193b04b848be0345526066
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: VAMPIRE
+  - spriteAddress:
+      m_AssetGUID: 5c1cb8af794430a4f9c29375f77029d3
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: POWER_OF_ANGLE
+  - spriteAddress:
+      m_AssetGUID: fb77817d55d8ad743b984fe4e07ee49a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: HAND_OF_MIDAS
+  - spriteAddress:
+      m_AssetGUID: fc77a4550e5bf644eace3258b8964123
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: GREEDY
+  - spriteAddress:
+      m_AssetGUID: 4192db67b37ba8343a6e2a14e4cce985
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: CRITICAL_HIT
+  - spriteAddress:
+      m_AssetGUID: 1bf81d3bd4d69a243bb711317bd3138e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    id: WHEEL_OF_FORTUNE
+  costTypeSpriteDefines:
+  - spriteAddress:
+      m_AssetGUID: 019c642941624f4478ccbb45c8480586
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 1
+  - spriteAddress:
+      m_AssetGUID: 77db841dd6374284698df6c7af796638
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    type: 5
+  talentRankSpriteDefines:
+  - m_AssetGUID: 28d7cd9926476c94cab5e4407af065ab
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: ce5fec87979cb9146bca8d35f6f9c59f
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: ccecab5d21a55f440b250d41a78b5de1
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  randomEquipSprites:
+  - m_AssetGUID: 2c67c5149ee68b44fadfe8a8a87fc13c
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 1725e57ab66b1da4da796fb7c067b4ad
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: d5b49adc6f591a5468aa9c1ae52b5ada
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 371f6b7612e911f45b3cd29526b501f9
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: dc2214b0d1b38ad4abfdd08c52b24c05
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 4529f8af9dda4da47a1f65ce8aefaae2
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  starSprites:
+  - m_AssetGUID: 2b180e0c71106fa41b663c520416d1e9
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: ed7c4566c04029c44a9e4f05e2b2b575
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  makerSprites:
+  - m_AssetGUID: 381450e953c518e41923f97bf2d85580
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: ad9b7664233009e4f97ebd7de8b6d92b
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 381450e953c518e41923f97bf2d85580
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  mapObstacleDefines:
+  - size: {x: 1, y: 1}
+    prefabs:
+    - m_AssetGUID: dc6452e31bc7ae24b9c09b51751bc4a0
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: a4c2b5849a0c2cd4ebe66b975b0a9737
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    explodePrefabs:
+    - m_AssetGUID: 731711ffa219f1044828da73b97f5599
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - size: {x: 2, y: 2}
+    prefabs:
+    - m_AssetGUID: 3f08a3569e07b984fa66fdc8047ba80e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: 2a87f85aece02de40abb7c687dde02ec
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    explodePrefabs: []
+  - size: {x: 1, y: 2}
+    prefabs:
+    - m_AssetGUID: e76a510ad57a80546b8b0824f2932482
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: 98662f96099514a46b7873d50d8c1e7e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: 42ea02a5f5af94c42b6067d91e663c3e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    explodePrefabs: []
+  - size: {x: 2, y: 4}
+    prefabs:
+    - m_AssetGUID: a00505b4b6b573e45a02c11378775b80
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    explodePrefabs: []
+  - size: {x: 2, y: 5}
+    prefabs:
+    - m_AssetGUID: 3c0cad8e334cf9c458ab97208020079b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    explodePrefabs: []
+  - size: {x: 2, y: 6}
+    prefabs:
+    - m_AssetGUID: 3fb96a6fbeb372f44beaaaf08229004b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    explodePrefabs: []

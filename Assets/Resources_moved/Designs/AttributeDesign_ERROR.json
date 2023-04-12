@@ -1,0 +1,11 @@
+Newtonsoft.Json.JsonReaderException: Invalid property identifier character: {. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonWriter.WriteToken(JsonReader reader, Boolean writeChildren, Boolean writeDateConstructorAsDate, Boolean writeComments)
+   at Newtonsoft.Json.JsonWriter.WriteToken(JsonReader reader, Boolean writeChildren)
+   at Newtonsoft.Json.JsonWriter.WriteToken(JsonReader reader)
+   at com.namnh.excel2json.Util.FormatJson(String json)
+   at com.namnh.excel2json.Excel2JsonParser.ParseFull(List`1 sheet, ParseParam parseParam)
+   at com.namnh.excel2json.Excel2JsonParser.ParseFull(Worksheet sheet, ParseParam parseParam, Boolean directWay)
+   at com.namnh.excel2json.Excel2JsonParser.ParseXLS2JSON(Worksheet sheet, ParseParam parseParam)

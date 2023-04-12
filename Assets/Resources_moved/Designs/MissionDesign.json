@@ -1,0 +1,380 @@
+{
+  "MissionDesign": [
+    {
+      "ID": "MISSION_1",
+      "Type": "KILL_ZOMBIE",
+      "Description": "KILL_ZOMBIE_NORMAL_DESCRIPTION",
+      "Total": 50,
+      "Extend": "ZOMBIE_NORMAL",
+      "Reward": [
+        {
+          "RewardID": "GOLD",
+          "Value": 500
+        }
+      ],
+      " ExtendExample": "ZOMBIE_NORMAL"
+    },
+    {
+      "ID": "MISSION_2",
+      "Type": "FINISH_LEVEL",
+      "Description": "FINISH_CAMPAIGN_LEVEL_DESCRIPTION",
+      "Total": 2,
+      "Extend": "CAMPAIGN_MODE",
+      "Reward": [
+        {
+          "RewardID": "SCROLL_WEAPON",
+          "Value": 300
+        }
+      ],
+      " ExtendExample": "ZOMBIE_MIDDLE"
+    },
+    {
+      "ID": "MISSION_3",
+      "Type": "UPGRADE_HERO",
+      "Description": "UPGRADE_HERO_DESCRIPTION",
+      "Total": 3,
+      "Reward": [
+        {
+          "RewardID": "GOLD",
+          "Value": 500
+        }
+      ],
+      " ExtendExample": "CAMPAIGN_MODE,IDLE_MODE"
+    },
+    {
+      "ID": "MISSION_4",
+      "Type": "UPGRADE_EQUIPMENT",
+      "Description": "UPGRADE_EQUIPMENT_DESCRIPTION",
+      "Total": 3,
+      "Reward": [
+        {
+          "RewardID": "SCROLL_WEAPON",
+          "Value": 300
+        }
+      ],
+      " ExtendExample": "HERO_1,HERO_2,..."
+    },
+    {
+      "ID": "MISSION_5",
+      "Type": "USE_ADDON",
+      "Description": "USE_ADDON_DESCRIPTION",
+      "Total": 1,
+      "Reward": [
+        {
+          "RewardID": "SCROLL_WEAPON",
+          "Value": 300
+        }
+      ],
+      " ExtendExample": "SKILL_FORKED_LIGHTNING,..."
+    },
+    {
+      "ID": "MISSION_6",
+      "Type": "USE_ULTIMATE",
+      "Description": "USE_ULTIMATE_DESCRIPTION",
+      "Total": 10,
+      "Reward": [
+        {
+          "RewardID": "ADD_ON_SPAWN_GATE",
+          "Value": 1
+        }
+      ],
+      " ExtendExample": "ADD_ON_RADIO_CALL"
+    },
+    {
+      "ID": "MISSION_7",
+      "Type": "OPEN_CHEST",
+      "Description": "OPEN_CHEST_DESCRIPTION",
+      "Total": 3,
+      "Reward": [
+        {
+          "RewardID": "GOLD",
+          "Value": 500
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_8",
+      "Type": "LOGIN",
+      "Description": "LOGIN_DESCRIPTION",
+      "Total": 1,
+      "Reward": [
+        {
+          "RewardID": "GOLD",
+          "Value": 500
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_9",
+      "Type": "CLAIM_OFFLINE_REWARD",
+      "Description": "CLAIM_OFFLINE_REWARD_DESCRIPTION",
+      "Total": 1,
+      "Reward": [
+        {
+          "RewardID": "SCROLL_WEAPON",
+          "Value": 300
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_10",
+      "Type": "USE_ADDON",
+      "Description": "USE_ADDON_DESCRIPTION",
+      "Total": 1,
+      "Reward": [
+        {
+          "RewardID": "SCROLL_WEAPON",
+          "Value": 300
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_11",
+      "Type": "USE_ULTIMATE",
+      "Description": "USE_ULTIMATE_DESCRIPTION",
+      "Total": 30,
+      "Reward": [
+        {
+          "RewardID": "ADD_ON_SPAWN_GATE",
+          "Value": 1
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_12",
+      "Type": "OPEN_CHEST",
+      "Description": "OPEN_CHEST_DESCRIPTION",
+      "Total": 1,
+      "Reward": [
+        {
+          "RewardID": "SCROLL_WEAPON",
+          "Value": 300
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_13",
+      "Type": "FUSION_EQUIP",
+      "Description": "FUSION_EQUIP_DESCRIPTION",
+      "Total": 1,
+      "Reward": [
+        {
+          "RewardID": "GOLD",
+          "Value": 500
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_14",
+      "Type": "WATCH_VIDEO_OPEN_CHEST",
+      "Description": "WATCH_VIDEO_OPEN_CHEST_DESCRIPTION",
+      "Total": 1,
+      "Reward": [
+        {
+          "RewardID": "GOLD",
+          "Value": 500
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_15",
+      "Type": "GET_FREE_RESOURCE",
+      "Description": "GET_FREE_GOLD_COIN_DESCRIPTION",
+      "Total": 1,
+      "Extend": "GOLD",
+      "Reward": [
+        {
+          "RewardID": "GOLD",
+          "Value": 500
+        }
+      ],
+      " ExtendExample": "GOLD, DIAMOND"
+    },
+    {
+      "ID": "MISSION_16",
+      "Type": "GET_FREE_RESOURCE",
+      "Description": "GET_FREE_DIAMOND_DESCRIPTION",
+      "Total": 1,
+      "Extend": "DIAMOND",
+      "Reward": [
+        {
+          "RewardID": "GOLD",
+          "Value": 500
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_17",
+      "Type": "GET_FREE_RESOURCE",
+      "Description": "GET_FREE_SCROLL_WEAPON_DESCRIPTION",
+      "Total": 1,
+      "Extend": "SCROLL_WEAPON",
+      "Reward": [
+        {
+          "RewardID": "GOLD",
+          "Value": 500
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_18",
+      "Type": "KILL_ZOMBIE",
+      "Description": "KILL_ZOMBIE_DESCRIPTION",
+      "Total": 500,
+      "Reward": [
+        {
+          "RewardID": "ADD_ON_MEDIC",
+          "Value": 1
+        }
+      ],
+      " ExtendExample": "PISTOL_01,PISTOL"
+    },
+    {
+      "ID": "MISSION_19",
+      "Type": "FINISH_LEVEL",
+      "Description": "FINISH_CAMPAIGN_LEVEL_DESCRIPTION",
+      "Total": 10,
+      "Extend": "CAMPAIGN_MODE",
+      "Reward": [
+        {
+          "RewardID": "SCROLL_WEAPON",
+          "Value": 300
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_20",
+      "Type": "UPGRADE_HERO",
+      "Description": "UPGRADE_HERO_DESCRIPTION",
+      "Total": 20,
+      "Reward": [
+        {
+          "RewardID": "GOLD",
+          "Value": 500
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_21",
+      "Type": "UPGRADE_EQUIPMENT",
+      "Description": "UPGRADE_EQUIPMENT_DESCRIPTION",
+      "Total": 10,
+      "Reward": [
+        {
+          "RewardID": "GOLD",
+          "Value": 500
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_22",
+      "Type": "FINISH_LEVEL",
+      "Description": "FINISH_IDLE_LEVEL_DESCRIPTION",
+      "Total": 10,
+      "Extend": "IDLE_MODE",
+      "Reward": [
+        {
+          "RewardID": "SCROLL_WEAPON",
+          "Value": 300
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_23",
+      "Type": "LOGIN",
+      "Description": "LOGIN_DESCRIPTION",
+      "Total": 5,
+      "Reward": [
+        {
+          "RewardID": "ADD_ON_FLAME_BOX",
+          "Value": 1
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_24",
+      "Type": "CLAIM_OFFLINE_REWARD",
+      "Description": "CLAIM_OFFLINE_REWARD_DESCRIPTION",
+      "Total": 10,
+      "Reward": [
+        {
+          "RewardID": "ADD_ON_BUFF_DEADSHOT",
+          "Value": 1
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_25",
+      "Type": "FUSION_EQUIP",
+      "Description": "FUSION_EQUIP_DESCRIPTION",
+      "Total": 10,
+      "Reward": [
+        {
+          "RewardID": "ADD_ON_MEDIC",
+          "Value": 1
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_26",
+      "Type": "FUSION_EQUIP",
+      "Description": "FUSION_EQUIP_DESCRIPTION",
+      "Total": 1,
+      "Reward": [
+        {
+          "RewardID": "GOLD",
+          "Value": 500
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_27",
+      "Type": "USE_ADDON",
+      "Description": "USE_ADDON_DESCRIPTION",
+      "Total": 5,
+      "Reward": [
+        {
+          "RewardID": "SCROLL_WEAPON",
+          "Value": 300
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_28",
+      "Type": "KILL_ZOMBIE",
+      "Description": "KILL_ZOMBIE_DESCRIPTION",
+      "Total": 1000,
+      "Reward": [
+        {
+          "RewardID": "ADD_ON_MEDIC",
+          "Value": 1
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_29",
+      "Type": "CLAIM_OFFLINE_REWARD",
+      "Description": "CLAIM_OFFLINE_REWARD_DESCRIPTION",
+      "Total": 1,
+      "Reward": [
+        {
+          "RewardID": "GOLD",
+          "Value": 500
+        }
+      ]
+    },
+    {
+      "ID": "MISSION_30",
+      "Type": "FINISH_LEVEL",
+      "Description": "FINISH_CAMPAIGN_LEVEL_DESCRIPTION",
+      "Total": 25,
+      "Extend": "CAMPAIGN_MODE",
+      "Reward": [
+        {
+          "RewardID": "SCROLL_WEAPON",
+          "Value": 300
+        }
+      ]
+    }
+  ]
+}

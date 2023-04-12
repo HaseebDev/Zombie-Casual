@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a4c0e7f3c89964e8f27fa55e8cdbb4, type: 3}
+  m_Name: GunResources
+  m_EditorClassIdentifier: 
+  _listGun:
+  - gunID: PISTOL_01
+    gunName: Gun_Glock_18
+    gunIconAddress:
+      m_AssetGUID: e7f87f182f619dd4988b159a2ce30613
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: ecba7055e1b33f04580b1b81273a24f6
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 4391360713206519920, guid: de728749ba700874b9db0f04524c50ce,
+        type: 3}
+      FireForce: 70
+      muzzlePar: {fileID: 0}
+      sfxShoot: 0
+      offsetGunMount: 0
+  - gunID: PISTOL_02
+    gunName: Gun_magnum
+    gunIconAddress:
+      m_AssetGUID: d65e4628202ff914286e81eda72f76b5
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: bb375010d16066149b1cca2b5d44a9e1
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 4391360713206519920, guid: de728749ba700874b9db0f04524c50ce,
+        type: 3}
+      FireForce: 70
+      muzzlePar: {fileID: 0}
+      sfxShoot: 0
+      offsetGunMount: 0
+  - gunID: RIFLE_01
+    gunName: Gun_Mp5
+    gunIconAddress:
+      m_AssetGUID: c5cc51def0179a04184c2c59e0b08eb8
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: 731ccac672a0fdc48a1674714a8cff32
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 0}
+      FireForce: 70
+      muzzlePar: {fileID: 0}
+      sfxShoot: 0
+      offsetGunMount: 0
+  - gunID: RIFLE_02
+    gunName: Gun_AK47
+    gunIconAddress:
+      m_AssetGUID: a72fdbffb7f2a994cb79c3e00428635d
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: 1c77562685477d540bb1e0dc70da23cc
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 0}
+      FireForce: 70
+      muzzlePar: {fileID: 0}
+      sfxShoot: 0
+      offsetGunMount: 0
+  - gunID: RIFLE_03
+    gunName: Gun_Awp
+    gunIconAddress:
+      m_AssetGUID: d08edcfccfdc0d34e8f3ccaed0e83add
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: de15664a9ba434b4889883b5aa0d76cd
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 8549105122287758196, guid: 4b72f6df173a6e8448c6821093af4a91,
+        type: 3}
+      FireForce: 70
+      muzzlePar: {fileID: 0}
+      sfxShoot: 0
+      offsetGunMount: 0
+  - gunID: RIFLE_04
+    gunName: Gun_Xm1014
+    gunIconAddress:
+      m_AssetGUID: 47a06a7281d71d143a2ee9c0b2a908ab
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: 5e6a17947b225224c893fb318fc2b120
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 0}
+      FireForce: 70
+      muzzlePar: {fileID: 0}
+      sfxShoot: 0
+      offsetGunMount: 0
+  - gunID: RIFLE_05
+    gunName: Gun_Fnp90
+    gunIconAddress:
+      m_AssetGUID: 2970c1525087bbe4ba585e73f4214f9f
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: e6ac832bebccb48449eab4c6f5fc56be
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 0}
+      FireForce: 70
+      muzzlePar: {fileID: 0}
+      sfxShoot: 0
+      offsetGunMount: 0
+  - gunID: RIFLE_06
+    gunName: Gun_Mk5
+    gunIconAddress:
+      m_AssetGUID: 915f2d6b833b14448b5bb0f90cf9b755
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: 1ffba3e321de0924b9057badbd582358
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 0}
+      FireForce: 70
+      muzzlePar: {fileID: 0}
+      sfxShoot: 0
+      offsetGunMount: 0
+  - gunID: RIFLE_07
+    gunName: Gun_Aug
+    gunIconAddress:
+      m_AssetGUID: 738155f27d34fce4ba7a5c81457d6c79
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: feb9ed9f942019c418411b9e5fb62001
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 0}
+      FireForce: 70
+      muzzlePar: {fileID: 0}
+      sfxShoot: 0
+      offsetGunMount: 0
+  - gunID: RIFLE_08
+    gunName: Gun_G3sg1
+    gunIconAddress:
+      m_AssetGUID: b3428834179f2534e8afdc9c18b6a7c6
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: 0f2c0ed4dca835d4cac051387e43b185
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 8549105122287758196, guid: 4b72f6df173a6e8448c6821093af4a91,
+        type: 3}
+      FireForce: 70
+      muzzlePar: {fileID: 0}
+      sfxShoot: 0
+      offsetGunMount: 0
+  - gunID: RIFLE_09
+    gunName: Gun_M249
+    gunIconAddress:
+      m_AssetGUID: 097953339b8c1e443aea52d80de79ffd
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: e60c4e8fcf75b6641845e871db25feb7
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 0}
+      FireForce: 70
+      muzzlePar: {fileID: 0}
+      sfxShoot: 0
+      offsetGunMount: 0
+  - gunID: RIFLE_10
+    gunName: Gun_Scifi_01
+    gunIconAddress:
+      m_AssetGUID: 6ba4b64c68989df4e8f1d362f1a41cbc
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: e42afba76e25701458261eb80b045210
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 8265756412126469917, guid: ef4dcaf91ab56db459fe33d6bd799728,
+        type: 3}
+      FireForce: 25
+      muzzlePar: {fileID: 7910151236208812991, guid: e05e21cfa0ed91c4b8281f18e9e10129,
+        type: 3}
+      sfxShoot: 206
+      offsetGunMount: 0
+  - gunID: RIFLE_11
+    gunName: Gun_Scifi_02
+    gunIconAddress:
+      m_AssetGUID: 6e879936958f7584b8b009b16b1303ac
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: 795bb932fecf8d94b8fce8dc925c6065
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 8549105122287758196, guid: 4b72f6df173a6e8448c6821093af4a91,
+        type: 3}
+      FireForce: 70
+      muzzlePar: {fileID: 0}
+      sfxShoot: 0
+      offsetGunMount: 0
+  - gunID: BAZOOKA_01
+    gunName: Gun_Bazooka
+    gunIconAddress:
+      m_AssetGUID: 4c55fb5cdedd2c3489cdcf513f46d31d
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: 92d24a553a8dcf646bd97054b51b7c7f
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 0}
+      FireForce: 20
+      muzzlePar: {fileID: 0}
+      sfxShoot: 0
+      offsetGunMount: 0
+  - gunID: BAZOOKA_02
+    gunName: Gun_Bazooka_scifi
+    gunIconAddress:
+      m_AssetGUID: 2df047061de2a744c8adb333652b19a7
+      m_SubObjectName: 
+      m_SubObjectType: 
+    gunAddress:
+      m_AssetGUID: b6113d7e2cd8ebd4682473eed52b0cd5
+      m_SubObjectName: 
+      m_SubObjectType: 
+    overwriteBullet:
+      gunBullet: {fileID: 8852641299273622514, guid: 6150ec17deee47f43b055cf684eeb4fd,
+        type: 3}
+      FireForce: 20
+      muzzlePar: {fileID: 6982698320381365061, guid: 11e6264d2929cf741931915fefb01770,
+        type: 3}
+      sfxShoot: 0
+      offsetGunMount: 0
+  _listLauncher:
+  - type: 1
+    launcher: {fileID: 2929239868301615416, guid: 88ce2824a7e125949aabdb678d570cd4,
+      type: 3}
+  - type: 2
+    launcher: {fileID: 2929239868301615416, guid: 695350f3b271ec14aa3d9d8e89e51b17,
+      type: 3}
+  - type: 3
+    launcher: {fileID: 7152431174478438032, guid: 9d0445054a147214487e0aa19dbd5cbc,
+      type: 3}
+  - type: 5
+    launcher: {fileID: 2929239868301615416, guid: 9cdbeee1deea44740bd779719cc5f5c3,
+      type: 3}

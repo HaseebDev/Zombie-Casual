@@ -1,0 +1,1085 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a375ed0c624833d4ea2227976b101e8b, type: 3}
+  m_Name: MapDataSO
+  m_EditorClassIdentifier: 
+  mapDatas:
+  - name: _Map1_1(NewYork)
+    roads:
+    - sprite: {fileID: 21300000, guid: 5b9b8a52850fe474b9978481a2b14ab8, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: aad887fb256ce8f4bb7abc91fdaaf61b, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: 21300000, guid: 0fd0f2d0bd2a8714683958f36aed6db7, type: 3}
+      localPosition: {x: 365, y: -8, z: 0}
+      size: {x: 194.3775, y: 393.3831}
+    - sprite: {fileID: 21300000, guid: c54507c90e845904f96f419d326d54cb, type: 3}
+      localPosition: {x: -327.99994, y: -592.93036, z: 0}
+      size: {x: 417.8068, y: 323.9166}
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 322, y: 817.6692, z: 0}
+      size: {x: 480.2847, y: 315.3384}
+    marker:
+    - localPosition: {x: 0, y: -1163.7207, z: 0}
+    - localPosition: {x: 198, y: -970, z: 0}
+    - localPosition: {x: -213, y: -966, z: 0}
+    - localPosition: {x: -506, y: -874, z: 0}
+    - localPosition: {x: -4, y: -751, z: 0}
+    - localPosition: {x: 141, y: -335, z: 0}
+    - localPosition: {x: -278, y: -335, z: 0}
+    - localPosition: {x: 1, y: -138, z: 0}
+    - localPosition: {x: -189, y: 183, z: 0}
+    - localPosition: {x: 16, y: 377, z: 0}
+    - localPosition: {x: 269, y: 543, z: 0}
+    - localPosition: {x: -4, y: 702, z: 0}
+    - localPosition: {x: -331, y: 968, z: 0}
+    - localPosition: {x: -21, y: 1049, z: 0}
+    - localPosition: {x: 272, y: 1220, z: 0}
+    bgColor: {r: 0.21960784, g: 0.52156866, b: 0.65882355, a: 1}
+    roadColor: {r: 0.43796724, g: 0.661426, b: 0.6981132, a: 1}
+    decorColor: {r: 0.3571111, g: 0.59741014, b: 0.7075472, a: 1}
+    nextBgColor: {r: 0.21960783, g: 0.52314806, b: 0.65882355, a: 1}
+    nextRoadColor: {r: 0.43796724, g: 0.661426, b: 0.6981132, a: 1}
+  - name: _Map1_2(NewYork)
+    roads:
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 56180bcbae6a15b418868dd80316e7b9, type: 3}
+      scale: {x: -1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: -2965757623527442295, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 432, y: -167, z: 0}
+      size: {x: 168, y: 300}
+    - sprite: {fileID: 1162542215315237259, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -312.0001, y: 358, z: 0}
+      size: {x: 168, y: 340}
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 350, y: 863, z: 0}
+      size: {x: 396, y: 260}
+    marker:
+    - localPosition: {x: -2.2000732, y: -1173.1, z: 0}
+    - localPosition: {x: -325.59998, y: -970.7, z: 0}
+    - localPosition: {x: 168.29993, y: -969.6, z: 0}
+    - localPosition: {x: 3.2999268, y: -809, z: 0}
+    - localPosition: {x: 3.2999268, y: -527.59985, z: 0}
+    - localPosition: {x: 168.29993, y: -368.09985, z: 0}
+    - localPosition: {x: -325.59998, y: -373.59985, z: 0}
+    - localPosition: {x: -2.2000732, y: -164.59985, z: 0}
+    - localPosition: {x: 198.29993, y: 88.69995, z: 0}
+    - localPosition: {x: 407.30005, y: 413.19995, z: 0}
+    - localPosition: {x: 113.599976, y: 314.19995, z: 0}
+    - localPosition: {x: 2.5, y: 573.80005, z: 0}
+    - localPosition: {x: -2.2000732, y: 847.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 1054, z: 0}
+    - localPosition: {x: 168.29993, y: 1057.3, z: 0}
+    bgColor: {r: 0.21960783, g: 0.52314806, b: 0.65882355, a: 1}
+    roadColor: {r: 0.43796724, g: 0.661426, b: 0.6981132, a: 1}
+    decorColor: {r: 0.3571111, g: 0.59741014, b: 0.7075472, a: 1}
+    nextBgColor: {r: 0.41251338, g: 0.44684812, b: 0.8490566, a: 1}
+    nextRoadColor: {r: 0.4773941, g: 0.49450007, b: 0.6792453, a: 1}
+  - name: _Map2_1(Chicago)
+    roads:
+    - sprite: {fileID: 21300000, guid: 15c11a0ae671a6b428c14ab674307e0e, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 56180bcbae6a15b418868dd80316e7b9, type: 3}
+      scale: {x: -1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: -1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -354, y: -707.99994, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: -5051028402235155326, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -372.0001, y: -131, z: 0}
+      size: {x: 220, y: 376}
+    - sprite: {fileID: 8764252008336163428, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 370, y: 758, z: 0}
+      size: {x: 396, y: 260}
+    marker:
+    - localPosition: {x: 0, y: -1221.5001, z: 0}
+    - localPosition: {x: 314.59998, y: -1079.6, z: 0}
+    - localPosition: {x: 1.0999756, y: -881.6, z: 0}
+    - localPosition: {x: 198.29993, y: -579.3, z: 0}
+    - localPosition: {x: 407.30005, y: -254.80005, z: 0}
+    - localPosition: {x: 113.599976, y: -353.8, z: 0}
+    - localPosition: {x: 2.5, y: -94.19995, z: 0}
+    - localPosition: {x: -5.2999268, y: 133.80005, z: 0}
+    - localPosition: {x: -170.29993, y: 286.69995, z: 0}
+    - localPosition: {x: 323.59998, y: 290, z: 0}
+    - localPosition: {x: 0.20007324, y: 496.80005, z: 0}
+    - localPosition: {x: -2.2000732, y: 847.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 1054, z: 0}
+    - localPosition: {x: 168.29993, y: 1057.3, z: 0}
+    - localPosition: {x: 3.2999268, y: 1210.2, z: 0}
+    bgColor: {r: 0.41251338, g: 0.44684812, b: 0.8490566, a: 1}
+    roadColor: {r: 0.4773941, g: 0.49450007, b: 0.6792453, a: 1}
+    decorColor: {r: 0.43422925, g: 0.46074143, b: 0.7735849, a: 1}
+    nextBgColor: {r: 0.41251338, g: 0.44684812, b: 0.8490566, a: 1}
+    nextRoadColor: {r: 0.4773941, g: 0.49450007, b: 0.6792453, a: 1}
+  - name: _Map2_2(Chicago)
+    roads:
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: aad887fb256ce8f4bb7abc91fdaaf61b, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: -4915987441238374563, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -313.99997, y: -913.5, z: 0}
+      size: {x: 236, y: 376}
+    - sprite: {fileID: 8764252008336163428, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 424, y: -111, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -431.99997, y: 50, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -376, y: 1021.99976, z: 0}
+      size: {x: 396, y: 260}
+    marker:
+    - localPosition: {x: 0, y: -1212.7, z: 0}
+    - localPosition: {x: 346.5, y: -1212.7, z: 0}
+    - localPosition: {x: 436.69995, y: -876.1, z: 0}
+    - localPosition: {x: 89.099976, y: -793.6, z: 0}
+    - localPosition: {x: 126.5, y: -470.40015, z: 0}
+    - localPosition: {x: -277.2, y: -336.2, z: 0}
+    - localPosition: {x: -4.4000244, y: -151.40015, z: 0}
+    - localPosition: {x: 3.2999268, y: 140.40015, z: 0}
+    - localPosition: {x: 168.29993, y: 299.90015, z: 0}
+    - localPosition: {x: -325.59998, y: 294.40015, z: 0}
+    - localPosition: {x: -2.2000732, y: 503.40015, z: 0}
+    - localPosition: {x: 0, y: 804.30005, z: 0}
+    - localPosition: {x: 346.5, y: 804.30005, z: 0}
+    - localPosition: {x: 436.69995, y: 1140.8999, z: 0}
+    - localPosition: {x: 89.099976, y: 1223.3999, z: 0}
+    bgColor: {r: 0.41251338, g: 0.44684812, b: 0.8490566, a: 1}
+    roadColor: {r: 0.4773941, g: 0.49450007, b: 0.6792453, a: 1}
+    decorColor: {r: 0.43422925, g: 0.46074143, b: 0.7735849, a: 1}
+    nextBgColor: {r: 0.8018868, g: 0.374466, b: 0.45015517, a: 1}
+    nextRoadColor: {r: 0.7075472, g: 0.4038359, b: 0.4759031, a: 1}
+  - name: _Map3_1(Texas)
+    roads:
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 15c11a0ae671a6b428c14ab674307e0e, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 5b9b8a52850fe474b9978481a2b14ab8, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: 9020517582528428217, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -432, y: 968, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: 7970692434774231482, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 470, y: -541, z: 0}
+      size: {x: 236, y: 376}
+    - sprite: {fileID: 7970692434774231482, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -377, y: -684, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: 9020517582528428217, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -251, y: -300, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: 9020517582528428217, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -461, y: -197, z: 0}
+      size: {x: 236, y: 350}
+    marker:
+    - localPosition: {x: -2.2000732, y: -1176.4, z: 0}
+    - localPosition: {x: -325.59998, y: -967.4, z: 0}
+    - localPosition: {x: 168.29993, y: -972.9, z: 0}
+    - localPosition: {x: 3.2999268, y: -813.4, z: 0}
+    - localPosition: {x: 0, y: -548.50024, z: 0}
+    - localPosition: {x: 314.59998, y: -406.59985, z: 0}
+    - localPosition: {x: 1.0999756, y: -208.59985, z: 0}
+    - localPosition: {x: 0, y: 173.40015, z: 0}
+    - localPosition: {x: 300.30005, y: 365.90015, z: 0}
+    - localPosition: {x: -348.7, y: 242.69995, z: 0}
+    - localPosition: {x: -2.2000732, y: 573.80005, z: 0}
+    - localPosition: {x: 0, y: 804.30005, z: 0}
+    - localPosition: {x: 346.5, y: 804.30005, z: 0}
+    - localPosition: {x: 436.69995, y: 1140.8999, z: 0}
+    - localPosition: {x: 89.099976, y: 1223.3999, z: 0}
+    bgColor: {r: 0.8018868, g: 0.374466, b: 0.45015517, a: 1}
+    roadColor: {r: 0.7075472, g: 0.4038359, b: 0.4759031, a: 1}
+    decorColor: {r: 0.77254903, g: 0.43529412, b: 0.5236379, a: 1}
+    nextBgColor: {r: 0.8018868, g: 0.374466, b: 0.45015517, a: 1}
+    nextRoadColor: {r: 0.7075472, g: 0.4038359, b: 0.4759031, a: 1}
+  - name: _Map3_2(Texas)
+    roads:
+    - sprite: {fileID: 21300000, guid: 5b9b8a52850fe474b9978481a2b14ab8, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: aad887fb256ce8f4bb7abc91fdaaf61b, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: 7970692434774231482, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 513, y: -326, z: 0}
+      size: {x: 236, y: 376}
+    - sprite: {fileID: 9020517582528428217, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 455, y: 896, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: 7970692434774231482, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -420, y: 352, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: 9020517582528428217, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -138, y: 385, z: 0}
+      size: {x: 360, y: 260}
+    marker:
+    - localPosition: {x: 0, y: -1167.6, z: 0}
+    - localPosition: {x: 300.30005, y: -975.1, z: 0}
+    - localPosition: {x: -348.7, y: -1098.3, z: 0}
+    - localPosition: {x: -2.2000732, y: -767.2, z: 0}
+    - localPosition: {x: 3.2999268, y: -527.59985, z: 0}
+    - localPosition: {x: 168.29993, y: -368.09985, z: 0}
+    - localPosition: {x: -325.59998, y: -373.59985, z: 0}
+    - localPosition: {x: -2.2000732, y: -164.59985, z: 0}
+    - localPosition: {x: 0, y: 128.30005, z: 0}
+    - localPosition: {x: 346.5, y: 128.30005, z: 0}
+    - localPosition: {x: 436.69995, y: 464.90015, z: 0}
+    - localPosition: {x: 89.099976, y: 547.40015, z: 0}
+    - localPosition: {x: 126.5, y: 873.6001, z: 0}
+    - localPosition: {x: -277.2, y: 1007.80005, z: 0}
+    - localPosition: {x: -4.4000244, y: 1192.6001, z: 0}
+    bgColor: {r: 0.8018868, g: 0.374466, b: 0.45015517, a: 1}
+    roadColor: {r: 0.7075472, g: 0.4038359, b: 0.4759031, a: 1}
+    decorColor: {r: 0.77254903, g: 0.43529412, b: 0.5236379, a: 1}
+    nextBgColor: {r: 0.5706865, g: 0.29067284, b: 0.8679245, a: 1}
+    nextRoadColor: {r: 0.82725495, g: 0.5566928, b: 0.8490566, a: 1}
+  - name: _Map4_1(Vegas)
+    roads:
+    - sprite: {fileID: 21300000, guid: 15c11a0ae671a6b428c14ab674307e0e, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 56180bcbae6a15b418868dd80316e7b9, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: 2051643302062019977, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -346, y: 424, z: 0}
+      size: {x: 216, y: 230}
+    - sprite: {fileID: 6303475231955171347, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 365, y: -433, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: 69149309445514002, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 318, y: -351, z: 0}
+      size: {x: 200, y: 400}
+    - sprite: {fileID: -7528625003408068577, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -354, y: -870, z: 0}
+      size: {x: 260, y: 376}
+    marker:
+    - localPosition: {x: 0, y: -1221.5001, z: 0}
+    - localPosition: {x: 314.59998, y: -1079.6, z: 0}
+    - localPosition: {x: 1.0999756, y: -881.6, z: 0}
+    - localPosition: {x: -4.4000244, y: -573.8, z: 0}
+    - localPosition: {x: -115.5, y: -314.19995, z: 0}
+    - localPosition: {x: -409.2, y: -413.2, z: 0}
+    - localPosition: {x: -200.20007, y: -88.69995, z: 0}
+    - localPosition: {x: 89.099976, y: 120.59985, z: 0}
+    - localPosition: {x: 436.69995, y: 203.09985, z: 0}
+    - localPosition: {x: 346.5, y: 539.69995, z: 0}
+    - localPosition: {x: 0, y: 539.69995, z: 0}
+    - localPosition: {x: -2.2000732, y: 847.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 1054, z: 0}
+    - localPosition: {x: 168.29993, y: 1057.3, z: 0}
+    - localPosition: {x: 3.2999268, y: 1210.2, z: 0}
+    bgColor: {r: 0.5706865, g: 0.29067284, b: 0.8679245, a: 1}
+    roadColor: {r: 0.82725495, g: 0.5566928, b: 0.8490566, a: 1}
+    decorColor: {r: 0.8650982, g: 0.57254905, b: 0.9529412, a: 1}
+    nextBgColor: {r: 0.5706865, g: 0.29067284, b: 0.8679245, a: 1}
+    nextRoadColor: {r: 0.82725495, g: 0.5566928, b: 0.8490566, a: 1}
+  - name: _Map4_2(Vegas)
+    roads:
+    - sprite: {fileID: 21300000, guid: 56180bcbae6a15b418868dd80316e7b9, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: aad887fb256ce8f4bb7abc91fdaaf61b, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -468, y: 90, z: 0}
+      size: {x: 420, y: 260}
+    - sprite: {fileID: 6303475231955171347, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 337, y: -935, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: 8764252008336163428, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 344, y: 570, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: 69149309445514002, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 361, y: 630, z: 0}
+      size: {x: 180, y: 290}
+    marker:
+    - localPosition: {x: -200.20007, y: -1252.3, z: 0}
+    - localPosition: {x: -409.20007, y: -927.8, z: 0}
+    - localPosition: {x: -115.5, y: -1026.8, z: 0}
+    - localPosition: {x: -4.4000244, y: -767.2, z: 0}
+    - localPosition: {x: 3.2999268, y: -534.2, z: 0}
+    - localPosition: {x: 168.29993, y: -381.3, z: 0}
+    - localPosition: {x: -325.59998, y: -378, z: 0}
+    - localPosition: {x: -2.2000732, y: -171.19995, z: 0}
+    - localPosition: {x: 126.5, y: 197.59985, z: 0}
+    - localPosition: {x: -277.2, y: 331.80005, z: 0}
+    - localPosition: {x: -4.4000244, y: 516.59985, z: 0}
+    - localPosition: {x: -2.2000732, y: 847.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 1054, z: 0}
+    - localPosition: {x: 168.29993, y: 1057.3, z: 0}
+    - localPosition: {x: 3.2999268, y: 1210.2, z: 0}
+    bgColor: {r: 0.5706865, g: 0.29067284, b: 0.8679245, a: 1}
+    roadColor: {r: 0.82725495, g: 0.5566928, b: 0.8490566, a: 1}
+    decorColor: {r: 0.8650982, g: 0.57254905, b: 0.9529412, a: 1}
+    nextBgColor: {r: 1, g: 0.91771525, b: 0.6367924, a: 1}
+    nextRoadColor: {r: 0.77254903, g: 0.72028106, b: 0.5058824, a: 1}
+  - name: _Map5_1(London)
+    roads:
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 15c11a0ae671a6b428c14ab674307e0e, type: 3}
+      scale: {x: -1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: -3240711559671570234, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -285, y: -882, z: 0}
+      size: {x: 420, y: 260}
+    - sprite: {fileID: -2520066728591419651, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 337, y: -219, z: 0}
+      size: {x: 360, y: 280}
+    - sprite: {fileID: -2520066728591419651, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -438, y: 636, z: 0}
+      size: {x: 360, y: 280}
+    marker:
+    - localPosition: {x: 0, y: -1212.7, z: 0}
+    - localPosition: {x: 346.5, y: -1212.7, z: 0}
+    - localPosition: {x: 436.69995, y: -876.1, z: 0}
+    - localPosition: {x: 89.099976, y: -793.6, z: 0}
+    - localPosition: {x: -2, y: -548.50024, z: 0}
+    - localPosition: {x: -316.6, y: -406.59985, z: 0}
+    - localPosition: {x: -3.0999756, y: -208.59985, z: 0}
+    - localPosition: {x: -2.2000732, y: 171.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 378, z: 0}
+    - localPosition: {x: 168.29993, y: 381.30005, z: 0}
+    - localPosition: {x: 3.2999268, y: 534.19995, z: 0}
+    - localPosition: {x: -2.2000732, y: 847.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 1054, z: 0}
+    - localPosition: {x: 168.29993, y: 1057.3, z: 0}
+    - localPosition: {x: 3.2999268, y: 1210.2, z: 0}
+    bgColor: {r: 1, g: 0.91771525, b: 0.6367924, a: 1}
+    roadColor: {r: 0.77254903, g: 0.72028106, b: 0.5058824, a: 1}
+    decorColor: {r: 0.9528302, g: 0.85732245, b: 0.57079923, a: 1}
+    nextBgColor: {r: 1, g: 0.91771525, b: 0.6367924, a: 1}
+    nextRoadColor: {r: 0.77254903, g: 0.72028106, b: 0.5058824, a: 1}
+  - name: _Map5_2(London)
+    roads:
+    - sprite: {fileID: 21300000, guid: 5b9b8a52850fe474b9978481a2b14ab8, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: -1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: aad887fb256ce8f4bb7abc91fdaaf61b, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: 779435363977974389, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 295, y: -314, z: 0}
+      size: {x: 420, y: 260}
+    - sprite: {fileID: -2520066728591419651, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -412, y: 619, z: 0}
+      size: {x: 360, y: 280}
+    - sprite: {fileID: 2051643302062019977, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 420, y: 717, z: 0}
+      size: {x: 216, y: 230}
+    marker:
+    - localPosition: {x: 0, y: -1167.6, z: 0}
+    - localPosition: {x: 300.30005, y: -975.1, z: 0}
+    - localPosition: {x: -348.7, y: -1098.3, z: 0}
+    - localPosition: {x: -2.2000732, y: -767.2, z: 0}
+    - localPosition: {x: -89.099976, y: -547.40015, z: 0}
+    - localPosition: {x: -436.7, y: -464.90015, z: 0}
+    - localPosition: {x: -346.5, y: -128.30005, z: 0}
+    - localPosition: {x: 0, y: -128.30005, z: 0}
+    - localPosition: {x: -4.4000244, y: 151.40015, z: 0}
+    - localPosition: {x: -277.2, y: 336.19995, z: 0}
+    - localPosition: {x: 126.5, y: 470.40015, z: 0}
+    - localPosition: {x: -2.2000732, y: 847.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 1054, z: 0}
+    - localPosition: {x: 168.29993, y: 1057.3, z: 0}
+    - localPosition: {x: 3.2999268, y: 1210.2, z: 0}
+    bgColor: {r: 1, g: 0.91771525, b: 0.6367924, a: 1}
+    roadColor: {r: 0.77254903, g: 0.72028106, b: 0.5058824, a: 1}
+    decorColor: {r: 0.9528302, g: 0.85732245, b: 0.57079923, a: 1}
+    nextBgColor: {r: 0.21960783, g: 0.52314806, b: 0.65882355, a: 1}
+    nextRoadColor: {r: 0.43796724, g: 0.661426, b: 0.6981132, a: 1}
+  - name: _Map6_1(Paris)
+    roads:
+    - sprite: {fileID: 21300000, guid: 56180bcbae6a15b418868dd80316e7b9, type: 3}
+      scale: {x: -1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: aad887fb256ce8f4bb7abc91fdaaf61b, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    decors:
+    - sprite: {fileID: 4597843130012204899, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -304, y: 431, z: 0}
+      size: {x: 280, y: 370}
+    - sprite: {fileID: 8032221753631729346, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -327, y: -801, z: 0}
+      size: {x: 280, y: 340}
+    marker:
+    - localPosition: {x: 198.29993, y: -1252.3, z: 0}
+    - localPosition: {x: 407.30005, y: -927.8, z: 0}
+    - localPosition: {x: 113.599976, y: -1026.8, z: 0}
+    - localPosition: {x: 2.5, y: -767.2, z: 0}
+    - localPosition: {x: 3.2999268, y: -527.59985, z: 0}
+    - localPosition: {x: 168.29993, y: -368.09985, z: 0}
+    - localPosition: {x: -325.59998, y: -373.59985, z: 0}
+    - localPosition: {x: -2.2000732, y: -164.59985, z: 0}
+    - localPosition: {x: 0, y: 128.30005, z: 0}
+    - localPosition: {x: 346.5, y: 128.30005, z: 0}
+    - localPosition: {x: 436.69995, y: 464.90015, z: 0}
+    - localPosition: {x: 89.099976, y: 547.40015, z: 0}
+    - localPosition: {x: -4.4000244, y: 827.3999, z: 0}
+    - localPosition: {x: -277.2, y: 1012.19995, z: 0}
+    - localPosition: {x: 126.5, y: 1146.3999, z: 0}
+    bgColor: {r: 0.21960783, g: 0.52314806, b: 0.65882355, a: 1}
+    roadColor: {r: 0.43796724, g: 0.661426, b: 0.6981132, a: 1}
+    decorColor: {r: 0.3571111, g: 0.59741014, b: 0.7075472, a: 1}
+    nextBgColor: {r: 0.21960783, g: 0.52314806, b: 0.65882355, a: 1}
+    nextRoadColor: {r: 0.43796724, g: 0.661426, b: 0.6981132, a: 1}
+  - name: _Map6_2(Paris)
+    roads:
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: -1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 15c11a0ae671a6b428c14ab674307e0e, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 311, y: -246, z: 0}
+      size: {x: 370, y: 280}
+    - sprite: {fileID: 5422282898991880221, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -328, y: 301, z: 0}
+      size: {x: 280, y: 260}
+    marker:
+    - localPosition: {x: -2.2000732, y: -1176.4, z: 0}
+    - localPosition: {x: -325.59998, y: -967.4, z: 0}
+    - localPosition: {x: 168.29993, y: -972.9, z: 0}
+    - localPosition: {x: 3.2999268, y: -813.4, z: 0}
+    - localPosition: {x: -2, y: -539.7, z: 0}
+    - localPosition: {x: -348.5, y: -539.7, z: 0}
+    - localPosition: {x: -438.7, y: -203.09985, z: 0}
+    - localPosition: {x: -91.099976, y: -120.59985, z: 0}
+    - localPosition: {x: 0, y: 119.499756, z: 0}
+    - localPosition: {x: 314.59998, y: 261.40015, z: 0}
+    - localPosition: {x: 1.0999756, y: 459.40015, z: 0}
+    - localPosition: {x: -2.2000732, y: 840.6001, z: 0}
+    - localPosition: {x: -325.59998, y: 1049.6001, z: 0}
+    - localPosition: {x: 168.29993, y: 1044.1001, z: 0}
+    - localPosition: {x: 3.2999268, y: 1203.6001, z: 0}
+    bgColor: {r: 0.21960783, g: 0.52314806, b: 0.65882355, a: 1}
+    roadColor: {r: 0.43796724, g: 0.661426, b: 0.6981132, a: 1}
+    decorColor: {r: 0.3571111, g: 0.59741014, b: 0.7075472, a: 1}
+    nextBgColor: {r: 0.41251338, g: 0.44684812, b: 0.8490566, a: 1}
+    nextRoadColor: {r: 0.4773941, g: 0.49450007, b: 0.6792453, a: 1}
+  - name: _Map7_1(Busan)
+    roads:
+    - sprite: {fileID: 21300000, guid: 15c11a0ae671a6b428c14ab674307e0e, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 56180bcbae6a15b418868dd80316e7b9, type: 3}
+      scale: {x: -1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: -1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -349.80005, y: -231.8999, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: -3885147790321335872, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -327.50003, y: -851, z: 0}
+      size: {x: 140, y: 376}
+    - sprite: {fileID: 8764252008336163428, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 370, y: 758, z: 0}
+      size: {x: 396, y: 260}
+    marker:
+    - localPosition: {x: 0, y: -1221.5001, z: 0}
+    - localPosition: {x: 314.59998, y: -1079.6, z: 0}
+    - localPosition: {x: 1.0999756, y: -881.6, z: 0}
+    - localPosition: {x: 198.29993, y: -579.3, z: 0}
+    - localPosition: {x: 407.30005, y: -254.80005, z: 0}
+    - localPosition: {x: 113.599976, y: -353.8, z: 0}
+    - localPosition: {x: 2.5, y: -94.19995, z: 0}
+    - localPosition: {x: -5.2999268, y: 133.80005, z: 0}
+    - localPosition: {x: -170.29993, y: 286.69995, z: 0}
+    - localPosition: {x: 323.59998, y: 290, z: 0}
+    - localPosition: {x: 0.20007324, y: 496.80005, z: 0}
+    - localPosition: {x: -2.2000732, y: 847.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 1054, z: 0}
+    - localPosition: {x: 168.29993, y: 1057.3, z: 0}
+    - localPosition: {x: 3.2999268, y: 1210.2, z: 0}
+    bgColor: {r: 0.41251338, g: 0.44684812, b: 0.8490566, a: 1}
+    roadColor: {r: 0.4773941, g: 0.49450007, b: 0.6792453, a: 1}
+    decorColor: {r: 0.43422925, g: 0.46074143, b: 0.7735849, a: 1}
+    nextBgColor: {r: 0.41251338, g: 0.44684812, b: 0.8490566, a: 1}
+    nextRoadColor: {r: 0.4773941, g: 0.49450007, b: 0.6792453, a: 1}
+  - name: _Map7_2(Busan)
+    roads:
+    - sprite: {fileID: 21300000, guid: 5b9b8a52850fe474b9978481a2b14ab8, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: aad887fb256ce8f4bb7abc91fdaaf61b, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 322, y: 790, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: 9094023453634163547, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 344.30005, y: -48.19995, z: 0}
+      size: {x: 370.23, y: 300}
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -451, y: -547.59985, z: 0}
+      size: {x: 396, y: 260}
+    marker:
+    - localPosition: {x: 0, y: -1167.6, z: 0}
+    - localPosition: {x: 300.30005, y: -975.1, z: 0}
+    - localPosition: {x: -348.7, y: -1098.3, z: 0}
+    - localPosition: {x: -2.2000732, y: -767.2, z: 0}
+    - localPosition: {x: 126.5, y: -470.40015, z: 0}
+    - localPosition: {x: -277.2, y: -336.2, z: 0}
+    - localPosition: {x: -4.4000244, y: -151.40015, z: 0}
+    - localPosition: {x: -2.2000732, y: 171.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 378, z: 0}
+    - localPosition: {x: 168.29993, y: 381.30005, z: 0}
+    - localPosition: {x: 3.2999268, y: 534.19995, z: 0}
+    - localPosition: {x: -2.2000732, y: 847.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 1054, z: 0}
+    - localPosition: {x: 168.29993, y: 1057.3, z: 0}
+    - localPosition: {x: 3.2999268, y: 1210.2, z: 0}
+    bgColor: {r: 0.41251338, g: 0.44684812, b: 0.8490566, a: 1}
+    roadColor: {r: 0.4773941, g: 0.49450007, b: 0.6792453, a: 1}
+    decorColor: {r: 0.43422925, g: 0.46074143, b: 0.7735849, a: 1}
+    nextBgColor: {r: 0.5706865, g: 0.29067284, b: 0.8679245, a: 1}
+    nextRoadColor: {r: 0.82725495, g: 0.5566928, b: 0.8490566, a: 1}
+  - name: _Map8_1(Tokyo)
+    roads:
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: aad887fb256ce8f4bb7abc91fdaaf61b, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: 4703034297729039081, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -325, y: 938, z: 0}
+      size: {x: 220, y: 300}
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -374, y: -611, z: 0}
+      size: {x: 420, y: 260}
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 359, y: -104, z: 0}
+      size: {x: 396, y: 260}
+    marker:
+    - localPosition: {x: 0, y: -1212.7, z: 0}
+    - localPosition: {x: 346.5, y: -1212.7, z: 0}
+    - localPosition: {x: 436.69995, y: -876.1, z: 0}
+    - localPosition: {x: 89.099976, y: -793.6, z: 0}
+    - localPosition: {x: 126.5, y: -470.40015, z: 0}
+    - localPosition: {x: -277.2, y: -336.2, z: 0}
+    - localPosition: {x: -4.4000244, y: -151.40015, z: 0}
+    - localPosition: {x: 3.2999268, y: 136, z: 0}
+    - localPosition: {x: 168.29993, y: 296.59985, z: 0}
+    - localPosition: {x: -325.59998, y: 297.69995, z: 0}
+    - localPosition: {x: -2.2000732, y: 500.09985, z: 0}
+    - localPosition: {x: 0, y: 804.30005, z: 0}
+    - localPosition: {x: 346.5, y: 804.30005, z: 0}
+    - localPosition: {x: 436.69995, y: 1140.8999, z: 0}
+    - localPosition: {x: 89.099976, y: 1223.3999, z: 0}
+    bgColor: {r: 0.5706865, g: 0.29067284, b: 0.8679245, a: 1}
+    roadColor: {r: 0.82725495, g: 0.5566928, b: 0.8490566, a: 1}
+    decorColor: {r: 0.8650982, g: 0.57254905, b: 0.9529412, a: 1}
+    nextBgColor: {r: 0.5706865, g: 0.29067284, b: 0.8679245, a: 1}
+    nextRoadColor: {r: 0.82725495, g: 0.5566928, b: 0.8490566, a: 1}
+  - name: _Map8_2(Tokyo)
+    roads:
+    - sprite: {fileID: 21300000, guid: 56180bcbae6a15b418868dd80316e7b9, type: 3}
+      scale: {x: -1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: aad887fb256ce8f4bb7abc91fdaaf61b, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: -7446938044582874244, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -362, y: -791, z: 0}
+      size: {x: 360, y: 260}
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 427, y: 873, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: 8764252008336163428, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -298, y: 386, z: 0}
+      size: {x: 396, y: 260}
+    - sprite: {fileID: -4626492622665694228, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -122, y: 431, z: 0}
+      size: {x: 120, y: 300}
+    marker:
+    - localPosition: {x: 198.20007, y: -1252.3, z: 0}
+    - localPosition: {x: 407.19995, y: -927.8, z: 0}
+    - localPosition: {x: 113.5, y: -1026.8, z: 0}
+    - localPosition: {x: 2.4000244, y: -767.2, z: 0}
+    - localPosition: {x: 3.2999268, y: -527.59985, z: 0}
+    - localPosition: {x: 168.29993, y: -368.09985, z: 0}
+    - localPosition: {x: -325.59998, y: -373.59985, z: 0}
+    - localPosition: {x: -2.2000732, y: -164.59985, z: 0}
+    - localPosition: {x: 0, y: 128.30005, z: 0}
+    - localPosition: {x: 346.5, y: 128.30005, z: 0}
+    - localPosition: {x: 436.69995, y: 464.90015, z: 0}
+    - localPosition: {x: 89.099976, y: 547.40015, z: 0}
+    - localPosition: {x: 34, y: 805, z: 0}
+    - localPosition: {x: -277.2, y: 1012.19995, z: 0}
+    - localPosition: {x: -2, y: 1237, z: 0}
+    bgColor: {r: 0.5706865, g: 0.29067284, b: 0.8679245, a: 1}
+    roadColor: {r: 0.82725495, g: 0.5566928, b: 0.8490566, a: 1}
+    decorColor: {r: 0.8650982, g: 0.57254905, b: 0.9529412, a: 1}
+    nextBgColor: {r: 1, g: 0.91771525, b: 0.6367924, a: 1}
+    nextRoadColor: {r: 0.77254903, g: 0.72028106, b: 0.5058824, a: 1}
+  - name: _Map9_1(Mumbai)
+    roads:
+    - sprite: {fileID: 21300000, guid: 15c11a0ae671a6b428c14ab674307e0e, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 56180bcbae6a15b418868dd80316e7b9, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: -3415981908529029414, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 338, y: -312, z: 0}
+      size: {x: 400, y: 260}
+    - sprite: {fileID: -4272025349516744366, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 354, y: 799, z: 0}
+      size: {x: 280, y: 280}
+    - sprite: {fileID: -4272025349516744366, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -342, y: -773, z: 0}
+      size: {x: 280, y: 280}
+    marker:
+    - localPosition: {x: 0, y: -1221.5001, z: 0}
+    - localPosition: {x: 314.59998, y: -1079.6, z: 0}
+    - localPosition: {x: 1.0999756, y: -881.6, z: 0}
+    - localPosition: {x: -4.4000244, y: -573.8, z: 0}
+    - localPosition: {x: -115.5, y: -314.19995, z: 0}
+    - localPosition: {x: -409.2, y: -413.2, z: 0}
+    - localPosition: {x: -200.20007, y: -88.69995, z: 0}
+    - localPosition: {x: -2.2000732, y: 171.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 378, z: 0}
+    - localPosition: {x: 168.29993, y: 381.30005, z: 0}
+    - localPosition: {x: 3.2999268, y: 534.19995, z: 0}
+    - localPosition: {x: -2.2000732, y: 847.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 1054, z: 0}
+    - localPosition: {x: 168.29993, y: 1057.3, z: 0}
+    - localPosition: {x: 3.2999268, y: 1210.2, z: 0}
+    bgColor: {r: 1, g: 0.91771525, b: 0.6367924, a: 1}
+    roadColor: {r: 0.77254903, g: 0.72028106, b: 0.5058824, a: 1}
+    decorColor: {r: 0.9528302, g: 0.85732245, b: 0.57079923, a: 1}
+    nextBgColor: {r: 1, g: 0.91771525, b: 0.6367924, a: 1}
+    nextRoadColor: {r: 0.77254903, g: 0.72028106, b: 0.5058824, a: 1}
+  - name: _Map9_2(Mumbai)
+    roads:
+    - sprite: {fileID: 21300000, guid: 56180bcbae6a15b418868dd80316e7b9, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: aad887fb256ce8f4bb7abc91fdaaf61b, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: 8687327057068612201, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 331, y: -883, z: 0}
+      size: {x: 400, y: 280}
+    - sprite: {fileID: -4272025349516744366, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 341, y: 608, z: 0}
+      size: {x: 280, y: 280}
+    marker:
+    - localPosition: {x: -200.20007, y: -1252.3, z: 0}
+    - localPosition: {x: -409.2, y: -927.8, z: 0}
+    - localPosition: {x: -115.5, y: -1026.8, z: 0}
+    - localPosition: {x: -4.4000244, y: -767.2, z: 0}
+    - localPosition: {x: 3.2999268, y: -534.2, z: 0}
+    - localPosition: {x: 168.29993, y: -381.3, z: 0}
+    - localPosition: {x: -325.59998, y: -378, z: 0}
+    - localPosition: {x: -2.2000732, y: -171.19995, z: 0}
+    - localPosition: {x: 126.5, y: 197.59985, z: 0}
+    - localPosition: {x: -277.2, y: 331.80005, z: 0}
+    - localPosition: {x: -4.4000244, y: 516.59985, z: 0}
+    - localPosition: {x: -2.2000732, y: 847.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 1054, z: 0}
+    - localPosition: {x: 168.29993, y: 1057.3, z: 0}
+    - localPosition: {x: 3.2999268, y: 1210.2, z: 0}
+    bgColor: {r: 1, g: 0.91771525, b: 0.6367924, a: 1}
+    roadColor: {r: 0.77254903, g: 0.72028106, b: 0.5058824, a: 1}
+    decorColor: {r: 0.9528302, g: 0.85732245, b: 0.57079923, a: 1}
+    nextBgColor: {r: 0.8018868, g: 0.374466, b: 0.45015517, a: 1}
+    nextRoadColor: {r: 0.7075472, g: 0.4038359, b: 0.4759031, a: 1}
+  - name: _Map10_1(Beijing)
+    roads:
+    - sprite: {fileID: 21300000, guid: aad887fb256ce8f4bb7abc91fdaaf61b, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 5b9b8a52850fe474b9978481a2b14ab8, type: 3}
+      scale: {x: -1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: -1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 5b9b8a52850fe474b9978481a2b14ab8, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: -6560967330314672094, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 419, y: -855, z: 0}
+      size: {x: 330, y: 360}
+    - sprite: {fileID: -643316277428183972, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 330, y: 425, z: 0}
+      size: {x: 330, y: 360}
+    marker:
+    - localPosition: {x: 126.5, y: -1143.4, z: 0}
+    - localPosition: {x: -277.2, y: -1009.2, z: 0}
+    - localPosition: {x: -4.4000244, y: -824.4, z: 0}
+    - localPosition: {x: -2, y: -494.59985, z: 0}
+    - localPosition: {x: -302.30002, y: -302.09985, z: 0}
+    - localPosition: {x: 346.69995, y: -425.3, z: 0}
+    - localPosition: {x: 0.20007324, y: -94.19995, z: 0}
+    - localPosition: {x: -2, y: 128.30005, z: 0}
+    - localPosition: {x: -348.5, y: 128.30005, z: 0}
+    - localPosition: {x: -438.7, y: 464.90015, z: 0}
+    - localPosition: {x: -91.099976, y: 547.40015, z: 0}
+    - localPosition: {x: 0, y: 849.3999, z: 0}
+    - localPosition: {x: 300.30005, y: 1041.8999, z: 0}
+    - localPosition: {x: -348.7, y: 918.69995, z: 0}
+    - localPosition: {x: -2.2000732, y: 1249.8, z: 0}
+    bgColor: {r: 0.8018868, g: 0.374466, b: 0.45015517, a: 1}
+    roadColor: {r: 0.7075472, g: 0.4038359, b: 0.4759031, a: 1}
+    decorColor: {r: 0.77254903, g: 0.43529412, b: 0.5236379, a: 1}
+    nextBgColor: {r: 0.8018868, g: 0.374466, b: 0.45015517, a: 1}
+    nextRoadColor: {r: 0.7075472, g: 0.4038359, b: 0.4759031, a: 1}
+  - name: _Map10_2(Beijing)
+    roads:
+    - sprite: {fileID: 21300000, guid: 5b9b8a52850fe474b9978481a2b14ab8, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: aad887fb256ce8f4bb7abc91fdaaf61b, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: 5559742356964438116, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 440, y: -423, z: 0}
+      size: {x: 160, y: 310}
+    - sprite: {fileID: 1374141228125333066, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -302, y: 382, z: 0}
+      size: {x: 400, y: 200}
+    - sprite: {fileID: 1374141228125333066, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 436, y: 750, z: 0}
+      size: {x: 380, y: 200}
+    marker:
+    - localPosition: {x: 0, y: -1167.6, z: 0}
+    - localPosition: {x: 300.30005, y: -975.1, z: 0}
+    - localPosition: {x: -348.7, y: -1098.3, z: 0}
+    - localPosition: {x: -2.2000732, y: -767.2, z: 0}
+    - localPosition: {x: 3.2999268, y: -527.59985, z: 0}
+    - localPosition: {x: 168.29993, y: -368.09985, z: 0}
+    - localPosition: {x: -325.59998, y: -373.59985, z: 0}
+    - localPosition: {x: -2.2000732, y: -164.59985, z: 0}
+    - localPosition: {x: 0, y: 128.30005, z: 0}
+    - localPosition: {x: 346.5, y: 128.30005, z: 0}
+    - localPosition: {x: 436.69995, y: 464.90015, z: 0}
+    - localPosition: {x: 89.099976, y: 547.40015, z: 0}
+    - localPosition: {x: 126.5, y: 873.6001, z: 0}
+    - localPosition: {x: -277.2, y: 1007.80005, z: 0}
+    - localPosition: {x: -4.4000244, y: 1192.6001, z: 0}
+    bgColor: {r: 0.8018868, g: 0.374466, b: 0.45015517, a: 1}
+    roadColor: {r: 0.7075472, g: 0.4038359, b: 0.4759031, a: 1}
+    decorColor: {r: 0.77254903, g: 0.43529412, b: 0.5236379, a: 1}
+    nextBgColor: {r: 0.21960783, g: 0.52314806, b: 0.65882355, a: 1}
+    nextRoadColor: {r: 0.43796724, g: 0.661426, b: 0.6981132, a: 1}
+  - name: _Map11_1(Washington)
+    roads:
+    - sprite: {fileID: 21300000, guid: 5b9b8a52850fe474b9978481a2b14ab8, type: 3}
+      scale: {x: -1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: aad887fb256ce8f4bb7abc91fdaaf61b, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: 6510391285509105927, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -289, y: 401, z: 0}
+      size: {x: 300, y: 190}
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 389, y: -180, z: 0}
+      size: {x: 300, y: 190}
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -379, y: -609, z: 0}
+      size: {x: 300, y: 190}
+    marker:
+    - localPosition: {x: 0.20007324, y: -1246.8, z: 0}
+    - localPosition: {x: 346.69995, y: -915.7, z: 0}
+    - localPosition: {x: -302.30002, y: -1038.9, z: 0}
+    - localPosition: {x: -2, y: -846.4, z: 0}
+    - localPosition: {x: 126.5, y: -470.40015, z: 0}
+    - localPosition: {x: -277.2, y: -336.2, z: 0}
+    - localPosition: {x: -4.4000244, y: -151.40015, z: 0}
+    - localPosition: {x: 0, y: 128.30005, z: 0}
+    - localPosition: {x: 346.5, y: 128.30005, z: 0}
+    - localPosition: {x: 436.69995, y: 464.90015, z: 0}
+    - localPosition: {x: 89.099976, y: 547.40015, z: 0}
+    - localPosition: {x: -2.2000732, y: 847.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 1054, z: 0}
+    - localPosition: {x: 168.29993, y: 1057.3, z: 0}
+    - localPosition: {x: 3.2999268, y: 1210.2, z: 0}
+    bgColor: {r: 0.21960783, g: 0.52314806, b: 0.65882355, a: 1}
+    roadColor: {r: 0.43796724, g: 0.661426, b: 0.6981132, a: 1}
+    decorColor: {r: 0.3571111, g: 0.59741014, b: 0.7075472, a: 1}
+    nextBgColor: {r: 0.21960783, g: 0.52314806, b: 0.65882355, a: 1}
+    nextRoadColor: {r: 0.43796724, g: 0.661426, b: 0.6981132, a: 1}
+  - name: _Map11_2(Washington)
+    roads:
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: aad887fb256ce8f4bb7abc91fdaaf61b, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: -3143630592743881407, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 392, y: -211, z: 0}
+      size: {x: 180, y: 300}
+    - sprite: {fileID: 8400684454680375161, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -278, y: -918, z: 0}
+      size: {x: 300, y: 220}
+    - sprite: {fileID: -5093237455395089989, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -268, y: 1040, z: 0}
+      size: {x: 300, y: 190}
+    marker:
+    - localPosition: {x: 0, y: -1212.7, z: 0}
+    - localPosition: {x: 346.5, y: -1212.7, z: 0}
+    - localPosition: {x: 436.69995, y: -876.1, z: 0}
+    - localPosition: {x: 89.099976, y: -793.6, z: 0}
+    - localPosition: {x: 126.5, y: -470.40015, z: 0}
+    - localPosition: {x: -277.2, y: -336.2, z: 0}
+    - localPosition: {x: -4.4000244, y: -151.40015, z: 0}
+    - localPosition: {x: 3.2999268, y: 136, z: 0}
+    - localPosition: {x: 168.29993, y: 296.59985, z: 0}
+    - localPosition: {x: -325.59998, y: 297.69995, z: 0}
+    - localPosition: {x: -2.2000732, y: 500.09985, z: 0}
+    - localPosition: {x: 0, y: 804.30005, z: 0}
+    - localPosition: {x: 346.5, y: 804.30005, z: 0}
+    - localPosition: {x: 436.69995, y: 1140.8999, z: 0}
+    - localPosition: {x: 89.099976, y: 1223.3999, z: 0}
+    bgColor: {r: 0.21960783, g: 0.52314806, b: 0.65882355, a: 1}
+    roadColor: {r: 0.43796724, g: 0.661426, b: 0.6981132, a: 1}
+    decorColor: {r: 0.3571111, g: 0.59741014, b: 0.7075472, a: 1}
+    nextBgColor: {r: 0.8018868, g: 0.374466, b: 0.45015517, a: 1}
+    nextRoadColor: {r: 0.7075472, g: 0.4038359, b: 0.4759031, a: 1}
+  - name: _Map12_1(Neitherland)
+    roads:
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: -1.1, y: -1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 15c11a0ae671a6b428c14ab674307e0e, type: 3}
+      scale: {x: -1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: -6950318421706197320, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -185, y: 1088, z: 0}
+      size: {x: 350.2, y: 394.1}
+    - sprite: {fileID: -6950318421706197320, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -366, y: 907, z: 0}
+      size: {x: 350.2, y: 394.1}
+    - sprite: {fileID: -6950318421706197320, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 319, y: 289, z: 0}
+      size: {x: 350.2, y: 394.1}
+    - sprite: {fileID: -6950318421706197320, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -429, y: -82, z: 0}
+      size: {x: 350.2, y: 394.1}
+    marker:
+    - localPosition: {x: -2.2000732, y: -1173.1, z: 0}
+    - localPosition: {x: -325.59998, y: -970.7, z: 0}
+    - localPosition: {x: 168.29993, y: -969.6, z: 0}
+    - localPosition: {x: 3.2999268, y: -809, z: 0}
+    - localPosition: {x: -5.2999268, y: -527.59985, z: 0}
+    - localPosition: {x: -170.29993, y: -368.09985, z: 0}
+    - localPosition: {x: 323.59998, y: -373.59985, z: 0}
+    - localPosition: {x: 0.20007324, y: -164.59985, z: 0}
+    - localPosition: {x: -2, y: 119.499756, z: 0}
+    - localPosition: {x: -316.6, y: 261.40015, z: 0}
+    - localPosition: {x: -3.0999756, y: 459.40015, z: 0}
+    - localPosition: {x: 0, y: 804.30005, z: 0}
+    - localPosition: {x: 346.5, y: 804.30005, z: 0}
+    - localPosition: {x: 436.69995, y: 1140.8999, z: 0}
+    - localPosition: {x: 89.099976, y: 1223.3999, z: 0}
+    bgColor: {r: 0.8018868, g: 0.374466, b: 0.45015517, a: 1}
+    roadColor: {r: 0.7075472, g: 0.4038359, b: 0.4759031, a: 1}
+    decorColor: {r: 0.77254903, g: 0.43529412, b: 0.5236379, a: 1}
+    nextBgColor: {r: 0.8018868, g: 0.374466, b: 0.45015517, a: 1}
+    nextRoadColor: {r: 0.7075472, g: 0.4038359, b: 0.4759031, a: 1}
+  - name: _Map12_2(Neitherland)
+    roads:
+    - sprite: {fileID: 21300000, guid: 15c11a0ae671a6b428c14ab674307e0e, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 56180bcbae6a15b418868dd80316e7b9, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: a9807bdfd70ccd441ba0b367dac5ddae, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    - sprite: {fileID: 21300000, guid: 35015a123b67c3b45a2571b74b4b0081, type: 3}
+      scale: {x: 1.1, y: 1.1, z: 1}
+    decors:
+    - sprite: {fileID: 7765192095015104086, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -305, y: 412, z: 0}
+      size: {x: 400, y: 270}
+    - sprite: {fileID: -6950318421706197320, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: -304, y: -919, z: 0}
+      size: {x: 350.2, y: 394.1}
+    - sprite: {fileID: -5238193128193617049, guid: f50b5625c2c7c6c42a4d08db7005e832,
+        type: 3}
+      localPosition: {x: 312, y: -392, z: 0}
+      size: {x: 360, y: 260}
+    marker:
+    - localPosition: {x: 0, y: -1221.5001, z: 0}
+    - localPosition: {x: 314.59998, y: -1079.6, z: 0}
+    - localPosition: {x: 1.0999756, y: -881.6, z: 0}
+    - localPosition: {x: -200.20007, y: -579.3, z: 0}
+    - localPosition: {x: -409.2, y: -254.80005, z: 0}
+    - localPosition: {x: -115.5, y: -353.8, z: 0}
+    - localPosition: {x: -4.4000244, y: -94.19995, z: 0}
+    - localPosition: {x: 0, y: 128.30005, z: 0}
+    - localPosition: {x: 346.5, y: 128.30005, z: 0}
+    - localPosition: {x: 436.69995, y: 464.90015, z: 0}
+    - localPosition: {x: 89.099976, y: 547.40015, z: 0}
+    - localPosition: {x: -2.2000732, y: 847.19995, z: 0}
+    - localPosition: {x: -325.59998, y: 1054, z: 0}
+    - localPosition: {x: 168.29993, y: 1057.3, z: 0}
+    - localPosition: {x: 3.2999268, y: 1210.2, z: 0}
+    bgColor: {r: 0.8018868, g: 0.374466, b: 0.45015517, a: 1}
+    roadColor: {r: 0.7075472, g: 0.4038359, b: 0.4759031, a: 1}
+    decorColor: {r: 0.77254903, g: 0.43529412, b: 0.5236379, a: 1}
+    nextBgColor: {r: 0.8018868, g: 0.374466, b: 0.45015517, a: 1}
+    nextRoadColor: {r: 0.7075472, g: 0.4038359, b: 0.4759031, a: 1}

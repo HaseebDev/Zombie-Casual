@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using Newtonsoft.Json;
+using QuickType.Attribute;
+using UnityEngine;
+
+namespace QuickType.NAME_DESIGN
+{
+    public partial class NAME_WRAPPER
+    {
+        [JsonProperty("NAME_ELEMENT", Required = Required.Always)]
+        public List<NAME_ELEMENT> NAME_ELEMENTs{ get; set; }
+    }
+
+    public partial class NAME_ELEMENT
+    {
+     	ATTRIBUTES
+    }
+
+    public partial class NAME_WRAPPER
+    {
+        public static NAME_WRAPPER FromJson(string json) =>
+            JsonConvert.DeserializeObject<NAME_WRAPPER>(json, QuickType.Attribute.Converter.Settings);
+    }
+}

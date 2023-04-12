@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &278240626137880232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7794716383094943171}
+  - component: {fileID: 1559822455849754869}
+  m_Layer: 0
+  m_Name: ResourceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7794716383094943171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278240626137880232}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1559822455849754869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278240626137880232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6292d9ccf375e24f8103c7e8c4a58a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _heroResources: {fileID: 11400000, guid: 2009bee541d156c419a915fff32a796f, type: 2}
+  resourceDefineManager: {fileID: 11400000, guid: 615bd6abc7a4c51498146f86940eb09a,
+    type: 2}
+  randomEquipSprites: []
+  mapObstacleDataSo: {fileID: 0}
+  _effectResources: {fileID: 11400000, guid: 262eee555b4d15f48b7f67c495008757, type: 2}
+  _iAPManagerSO: {fileID: 11400000, guid: 5a25a61247d2d8e46af11bb502586822, type: 2}
+  _maskZombieOnly:
+    serializedVersion: 2
+    m_Bits: 512
+  _maskHero:
+    serializedVersion: 2
+    m_Bits: 1024
+  _maskHeroAndZombie:
+    serializedVersion: 2
+    m_Bits: 1536
+  _soundBank: {fileID: 11400000, guid: 829a08a24892c9e428dd742743d800d7, type: 2}
+  _gunBank: {fileID: 11400000, guid: 784be41292c5bc2479ea38599e718eec, type: 2}
+  _zomSpawnDefine: {fileID: 0}
+  _listCustomLimitPrefab:
+  - PrefabID: ZOMBIE_BOMB
+    Limit: 30
+  - PrefabID: ZOMBIE_BOSS
+    Limit: 10
+  - PrefabID: ZOMBIE_BOSS_EASY
+    Limit: 10
+  - PrefabID: ZOMBIE_BOSS_TUTORIAL
+    Limit: 2
+  - PrefabID: ZOMBIE_DEMO
+    Limit: 20
+  - PrefabID: ZOMBIE_FAST_01
+    Limit: 40
+  - PrefabID: ZOMBIE_FAST_02
+    Limit: 40
+  - PrefabID: ZOMBIE_HARD
+    Limit: 30
+  - PrefabID: ZOMBIE_MIDDLE
+    Limit: 30
+  - PrefabID: ZOMBIE_NORMAL
+    Limit: 30
+  - PrefabID: ZOMBIE_RANGE
+    Limit: 30
+  - PrefabID: FX_zombie_die
+    Limit: 30
+  - PrefabID: UIFloatingText
+    Limit: 30
+  - PrefabID: FX_Impact_Blood
+    Limit: 30
+  _listSpecialBullet:
+  - _type: 29
+    _bulletRef: {fileID: 300806278459208826, guid: 64575903225e1be48b712402732c6fc3,
+      type: 3}
+  - _type: 1
+    _bulletRef: {fileID: 300806278459208826, guid: b5fe9c521b54d364996034db6d4163fb,
+      type: 3}
+  - _type: 30
+    _bulletRef: {fileID: 300806278459208826, guid: b5fe9c521b54d364996034db6d4163fb,
+      type: 3}
+  - _type: 5
+    _bulletRef: {fileID: 300806278459208826, guid: 7348e9c8b4d01904a8e196bf4d350fc7,
+      type: 3}
+  MapDecorSO: {fileID: 11400000, guid: df51be97a55bcc84f842a75c8b627e5e, type: 2}
