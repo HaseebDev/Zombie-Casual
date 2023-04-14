@@ -179,7 +179,7 @@ public class CurrencyBar : MonoBehaviour
                 ShowCurrencys(CurrencyType.GOLD, CurrencyType.DIAMOND, CurrencyType.PILL);
                 break;
             case EnumHUD.HUD_HOME:
-                ShowCurrencys(CurrencyType.GOLD, CurrencyType.DIAMOND);
+                ShowCurrencys(CurrencyType.GOLD, CurrencyType.DIAMOND, CurrencyType.WEAPON_SCROLL);
                 _holder.cellSize = bigSize;
                 break;
             case EnumHUD.HUD_HERO:
