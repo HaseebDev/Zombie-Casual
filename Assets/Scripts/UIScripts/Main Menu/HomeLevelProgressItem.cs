@@ -11,6 +11,7 @@ public class HomeLevelProgressItem : MonoBehaviour
 {
     [SerializeField] private Image _bg;
     [SerializeField] private LocalizedTMPTextUI _levelText;
+    [SerializeField] private LocalizedTMPTextUI _BattleText;
 
     [SerializeField] private GameObject _reward;
     [SerializeField] private Transform _rewardHolder;
@@ -21,6 +22,7 @@ public class HomeLevelProgressItem : MonoBehaviour
     public void Load(int level, Color color, CustomBattleReward rewardData, bool hasReward = false)
     {
         _levelText.text = level.ToString();
+        _BattleText.text = "Battle " + level.ToString(); 
         _bg.color = color;
 
         _reward.SetActive(hasReward);
