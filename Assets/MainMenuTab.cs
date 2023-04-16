@@ -25,6 +25,7 @@ public class MainMenuTab : MonoBehaviour
     public ButtonTab btnHome;
     public ButtonTab btnResearch;
     public ButtonTab btnShop;
+    //public GameObject 
 
     public List<HUDReminder> _HUDreminders;
 
