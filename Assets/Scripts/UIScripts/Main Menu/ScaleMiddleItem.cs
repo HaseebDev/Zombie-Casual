@@ -1,56 +1,58 @@
 using UnityEngine;
 using UnityEngine.UI;
-
 public class ScaleMiddleItem : MonoBehaviour
 {
     public float middleItemScaleFactor = 1.2f; // The scale factor to apply to the middle item
     public float middleItemThreshold = 100f; // The distance threshold for the middle item
+    public RectTransform ContentWindow;
 
     private ScrollRect scrollRect;
-   // private UnityEngine.UI.Extensions.ScrollSnap scrollSnap;
+    private int elementIndexToSnap;
+    public RectTransform[] elements;
+    private float targetNormalizedPosition;
+    // private UnityEngine.UI.Extensions.ScrollSnap scrollSnap;
     void SnaptoActiveLevel()
     {
-        //RectTransform contentRect = scrollRect.content.GetComponent<RectTransform>();
-        //float viewportWidth = scrollRect.viewport.rect.width;
-        //float contentWidth = contentRect.rect.width;
-        //float itemWidth = contentWidth / contentRect.childCount;
-        //float middlePosition = viewportWidth / 2f;
-        //float leftmostPosition = -contentWidth / 2f + itemWidth / 2f;
+        if (SaveGameHelper.GetMaxCampaignLevel() > 10)
+        {
+            elementIndexToSnap = SaveGameHelper.GetMaxCampaignLevel() % 10;
+            if (elementIndexToSnap == 0)
+            {
+                elementIndexToSnap = 10;
+            }
+        }
+        else
+        {
+            elementIndexToSnap = SaveGameHelper.GetMaxCampaignLevel();
+        }
+        float elementWidth = elements[0].rect.width;
+        float totalWidth = elements.Length * elementWidth;
+        float viewportWidth = scrollRect.viewport.rect.width;
 
-        //float closestDistance = Mathf.Infinity;
-        //RectTransform closestElement = null;
+        // Calculate the position to snap to based on the element index to snap
+        float targetXPos = elementIndexToSnap * elementWidth + elementWidth / 2 - viewportWidth / 2;
+        targetNormalizedPosition = targetXPos / (totalWidth - viewportWidth);
 
-        //// Loop through all child elements of the content object and find the one closest to the middle of the viewport
-        //foreach (RectTransform child in contentRect)
-        //{
-        //    float distance = Mathf.Abs(child.position.x - middlePosition);
+        // Snap to the element
+        SnapTo(targetNormalizedPosition);
+    }
+    private void SnapTo(float normalizedPosition)
+    {
+        // Clamp the target position within [0, 1]
+        targetNormalizedPosition = Mathf.Clamp01(normalizedPosition);
 
-        //    if (distance < closestDistance)
-        //    {
-        //        closestDistance = distance;
-        //        closestElement = child;
-        //    }
-        //}
+        // Snap to the target position
+        scrollRect.normalizedPosition = new Vector2(targetNormalizedPosition, scrollRect.normalizedPosition.y);
+    }
 
-        //if (closestElement != null)
-        //{
-        //    // Offset the xPosition to ensure it's always positive
-        //    float xPosition = closestElement.position.x + Mathf.Abs(leftmostPosition);
-
-        //    float normalizedPosition = xPosition / (contentWidth - viewportWidth);
-        //    normalizedPosition = Mathf.Clamp01(normalizedPosition);
-
-        //    scrollRect.normalizedPosition = new Vector2(normalizedPosition, 0f);
-        //    scrollRect.content.anchoredPosition = new Vector2(xPosition - closestElement.rect.width / 2f, 0f);
-        //}
-        //Debug.Log("itemToSnapName: " + itemRectTransform.name);
-        //Debug.Log("XPosition: " + xPosition);
-        //Debug.Log("Normalized Pos " + normalizedPosition);
-        //Debug.Log("Viewport width: " + viewportWidth);
-        //Debug.Log("Content width: " + contentWidth);
-        //Debug.Log("Indext to Snap to" + indexToSnapTo);
-        // Snap the scroll view to the content item
-        //scrollRect.normalizedPosition = new Vector2(normalizedPosition, 0f);
+    private void GetallElements()
+    {
+        Debug.Log("Child Count : " + ContentWindow.childCount);
+        for (int i = 0; i < ContentWindow.childCount; i++)
+        {
+            elements[i] = ContentWindow.GetChild(i).GetComponent<RectTransform>();
+            // do something with the childGameObject reference
+        }
     }
 
     private void Start()
@@ -59,7 +61,8 @@ public class ScaleMiddleItem : MonoBehaviour
         //scrollSnap = GetComponent< UnityEngine.UI.Extensions.ScrollSnap> ();
         scrollRect.onValueChanged.AddListener(OnScroll);
 
-        Invoke("SnaptoActiveLevel", 2f);
+        Invoke("GetallElements", 1f);
+        Invoke("SnaptoActiveLevel", 1.2f);
 
 
         //float closestDistance = float.MaxValue;
@@ -106,7 +109,7 @@ public class ScaleMiddleItem : MonoBehaviour
             RectTransform childTransform = scrollRect.content.GetChild(i).GetComponent<RectTransform>();
             Vector3 center = childTransform.position + new Vector3(childTransform.rect.width * childTransform.pivot.x, -childTransform.rect.height * childTransform.pivot.y, 0f);
             float distance = Vector2.Distance(scrollRect.viewport.rect.center, center);
-            Debug.Log("Distance from center to item " + i + ": " + distance);
+            //Debug.Log("Distance from center to item " + i + ": " + distance);
             if (distance < closestDistance)
             {
                 closestDistance = distance;
@@ -114,7 +117,7 @@ public class ScaleMiddleItem : MonoBehaviour
             }
         }
 
-        Debug.Log("Closest item index: " + closestIndex);
+        //Debug.Log("Closest item index: " + closestIndex);
 
         for (int i = 0; i < scrollRect.content.childCount; i++)
         {
