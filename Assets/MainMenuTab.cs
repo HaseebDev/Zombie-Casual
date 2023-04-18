@@ -1,19 +1,13 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using UIScripts.Main_Menu;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityExtensions.Localization;
-
 [Serializable]
 public class HUDReminder
 {
     public EnumHUD hud;
     public ReminderUI _reminder;
 }
-
-
 public class MainMenuTab : MonoBehaviour
 {
     public static MainMenuTab Instance;
@@ -25,29 +19,18 @@ public class MainMenuTab : MonoBehaviour
     public ButtonTab btnHome;
     public ButtonTab btnResearch;
     public ButtonTab btnShop;
-    //public GameObject 
-
     public List<HUDReminder> _HUDreminders;
-
     public GameObject lockTalentPanel;
-
     public GameObject lockShop;
-
     public GameObject lockEquipment;
-    // public LocalizedTMPTextParam tooltipText;
-
     private EnumHUD CurrentEnumHUD = EnumHUD.NONE;
-
     private void Awake()
     {
         Instance = this;
     }
-
     private void Start()
     {
         SwitchHomeTab(EnumHUD.HUD_HOME);
-        // tooltipText.UpdateParams(DesignHelper.GetConfigDesign(GameConstant.UNLOCK_TALENT_LEVEL).Value);
-        // GetComponent<HorizontalLayoutGroup>().enabled = false;
     }
 
     public void ResetLayer()
@@ -95,7 +78,11 @@ public class MainMenuTab : MonoBehaviour
 
     private void UnSelectCurrentTab()
     {
-        currentTab?.UnSelect();
+        btnHome?.UnSelect();
+        btnEvent?.UnSelect();
+        btnHero?.UnSelect();
+        btnResearch?.UnSelect();
+        btnShop?.UnSelect();
     }
 
     public void OnButtonHero()
@@ -127,7 +114,7 @@ public class MainMenuTab : MonoBehaviour
         if (!IsDuplicateHUD(EnumHUD.HUD_HOME))
         {
             MainMenuCanvas.instance.HideAllHUD(EnumHUD.HUD_HOME);
-            
+
             MainMenuCanvas.instance.ShowHUDForce(EnumHUD.HUD_HOME, false);
             CurrentEnumHUD = EnumHUD.HUD_HOME;
         }
@@ -241,7 +228,6 @@ public class MainMenuTab : MonoBehaviour
             }
         }
     }
-
     private bool IsDuplicateHUD(EnumHUD type)
     {
         if (MasterCanvas.CurrentMasterCanvas.CurrentHUD != null &&
